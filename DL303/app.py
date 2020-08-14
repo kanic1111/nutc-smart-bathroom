@@ -38,9 +38,9 @@ while(True):
         sendStatus["sensorData"] = {}
         sendStatus["sensorData"]["一氧化碳"] = float(dl303_CO) + 1
         sendStatus["sensorData"]["二氧化碳"] = float(dl303_CO2)
-        sendStatus["sensorData"]["濕度"] = float(dl303_RH)
-        sendStatus["sensorData"]["溫度"] = float(dl303_TC)
-        sendStatus["sensorData"]["相對溫度"] = float(dl303_DC)
+        sendStatus["sensorData"]["相對濕度"] = float(dl303_RH)
+        sendStatus["sensorData"]["環境溫度"] = float(dl303_TC)
+        sendStatus["sensorData"]["露點溫度"] = float(dl303_DC)
         sendStatus["sensorData"]["絕對溫度"] = float(dl303_Absolute_RH)
         r = requests.post(config["GCP"]["SERVER_PROTOCOL"] + "://" + config["GCP"]["SERVER_IP"] + ":" + config["GCP"]["SERVER_PORT"] + "/insert", json=sendStatus)
         print(r.text)
