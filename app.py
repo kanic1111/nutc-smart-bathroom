@@ -100,18 +100,19 @@ while(True):
             # 設定時間戳做完參考
             startTimeStamp = datetime.datetime.now()
             stopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=15)
-        elif (stopTimeStamp + datetime.timedelta(minutes=15) < datetime.datetime.now()):
+        elif (stopTimeStamp + datetime.timedelta(minutes=15) > datetime.datetime.now()):
             # 經過 15 分鐘的半速後進行無人模式
             preStatusJson["人員"] == 0
-        elif (stopTimeStamp < datetime.datetime.now())
+        elif (stopTimeStamp > datetime.datetime.now())
             # 人走後 10 分鐘降為半速
             # controlMode = 5
-        elif (startTimeStamp + datetime.timedelta(minutes=5) < datetime.datetime.now()):
+        elif (startTimeStamp + datetime.timedelta(minutes=5) > datetime.datetime.now()):
             # 人走後 5 分鐘使用全速
             # controlMode = 6
     elif (mode != 1):
         # 非 模式 0 且非模式 1 時清除時間戳。
-        recordTimeStamp = ""
+        rstartTimeStamp = ""
+        stopTimeStamp = ""
 
     if (mode == 1):
         # UV 燈啟動 / 風扇啟動 (10min/1hr)
@@ -128,7 +129,8 @@ while(True):
             # controlMode = 4
     elif (mode != 0): 
         # 非 模式 0 且非模式 1 時清除時間戳。
-        recordTimeStamp = ""
+        startTimeStamp = ""
+        stopTimeStamp = ""
         
         
     if (mode == 2):
