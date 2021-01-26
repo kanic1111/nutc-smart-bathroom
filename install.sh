@@ -29,6 +29,13 @@ npm install
 
 pm2 start node_modules/react-scripts/scripts/start.js --name "web-service"
 
+cd ~/nutc-smart-bathroom
+
 pip3 install -r requirements.txt
 
 pm2 start app.py --interpreter python3 --interpreter-args -u --name "Control-Service"
+
+pm2 save
+
+sudo env PATH=$PATH:/home/pi/.nvm/versions/node/v10.23.1/bin /home/pi/.nvm/versions/node/v10.23.1/lib/node_modules/pm2/bin/pm2 startup systemd -u pi --hp /home/pi
+
