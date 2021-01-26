@@ -4,8 +4,8 @@ const int fanControlPin = 6;
 const int uvControlPin = 7;
 const int heatControlPin = 8;
 int fanPreStatus = 0;
-int uvPreStatus = 1;
-int heatPreStatus = 1;
+int uvPreStatus = 2;
+int heatPreStatus = 2;
 
 void setup() {
   // put your setup code here, to run once:
@@ -14,8 +14,8 @@ void setup() {
   pinMode(uvControlPin, OUTPUT);
   pinMode(heatControlPin, OUTPUT); 
   analogWrite(fanControlPin, 0);
-  digitalWrite(uvControlPin, 0);
-  digitalWrite(heatControlPin, 0);
+  digitalWrite(uvControlPin, 1);
+  digitalWrite(heatControlPin, 1);
 }
 
 void loop() {
@@ -30,11 +30,11 @@ void loop() {
     count = data.length();
     char json[count+1];
     data.toCharArray(json, count+1);
-    Serial.println(json);
+//    Serial.println(json);
     StaticJsonDocument<200> jsonBuffer;
     //  char json[] = "{\"sensor\":\"gps\",\"time\":1351824120,\"data\":[48.756080,2.302038]}";
     DeserializationError error = deserializeJson(jsonBuffer, json);
-    Serial.println(); 
+//    Serial.println(); 
     // Test if parsing succeeds.
     if (error) {
 //      Serial.print(F("deserializeJson() failed: "));
@@ -42,17 +42,17 @@ void loop() {
       return;
     }
     if (jsonBuffer["fan"].is<int>() and (jsonBuffer["fan"] >= 0 or jsonBuffer["fan"] <= 3)) {
-        Serial.print("fan-receiveStatus:");
-        Serial.println(int(jsonBuffer["fan"]));
+//        Serial.print("fan-receiveStatus:");
+//        Serial.println(int(jsonBuffer["fan"]));
         if (fanPreStatus != jsonBuffer["fan"]){
           fanPreStatus = jsonBuffer["fan"];
-          analogWrite(fanControlPin, int(jsonBuffer["fan"])*85);
+          analogWrite(fanControlPin, int(jsonBuffer["fan"])*60);
         }
     }
     
     if (jsonBuffer["uv"].is<int>() and (jsonBuffer["uv"] == 0 or jsonBuffer["uv"] == 1)) {
-        Serial.print("uv-receiveStatus:");
-        Serial.println(int(jsonBuffer["uv"]));
+//        Serial.print("uv-receiveStatus:");
+//        Serial.println(int(jsonBuffer["uv"]));
         if (uvPreStatus != jsonBuffer["uv"]){
           uvPreStatus = jsonBuffer["uv"];
           digitalWrite(uvControlPin, !int(jsonBuffer["uv"]));
@@ -60,8 +60,8 @@ void loop() {
     }
     
     if (jsonBuffer["heat"].is<int>() and (jsonBuffer["heat"] == 0 or jsonBuffer["heat"] == 1)) {
-        Serial.print("heat-receiveStatus:");
-        Serial.println(int(jsonBuffer["heat"]));
+//        Serial.print("heat-receiveStatus:");
+//        Serial.println(int(jsonBuffer["heat"]));
         if (heatPreStatus != jsonBuffer["heat"]){
           heatPreStatus = jsonBuffer["heat"];
           digitalWrite(heatControlPin, !int(jsonBuffer["heat"]));

@@ -110,57 +110,59 @@ while(True):
         pass
         #如果上面都沒符合 ex: 濕度介於 65 ~ 85 或 溫度 介於 30 ~ 35  維持原來狀態 底下判斷有沒有人在裡面
 
+    
     if(referenceJson["人員"] == 1):
         # 計時全清 有人UV燈關
         mode = 2
         minstartTimeStamp = ""
         minstopTimeStamp = ""  
-        hourstartTimeStamp = ""
-        hourstopTimeStamp = "" 
-        controlJson["fan"] = 1
         controlJson["uv"] = 0 
         if (referenceJson["濕度"]>=85):
-            # 有人 濕度大於85 風扇開 加熱器開 UV關
+            # 有人 濕度大於85 加熱器開 UV關
+            hourstartTimeStamp = ""
+            hourstopTimeStamp = "" 
             controlJson["heat"] = 1  
         if (referenceJson["濕度"]<=65):
-            # 加熱關 風扇開
+            # 加熱關
             controlJson["heat"] = 0
     elif(referenceJson["人員"] == 0):
         #沒人 UV一律開啟 判斷濕度
         controlJson["uv"] = 1
         controlJson["heat"] = 0 
-        if(minstartTimeStamp == "" and controlJson["fan"] == 0):
-            if (hourstartTimeStamp == ""):
-                # 設定時間戳做完參考，開啟 UV 燈及風扇。
-                # controlMode = 5
-                # arduino.write(ControlMode(5).encode())
-                # print("controlmode = 5")
-                hourstartTimeStamp = datetime.datetime.now()
-            if ((hourstartTimeStamp + datetime.timedelta(minutes=1)) > datetime.datetime.now()):
-                # 刷新每小時的時間戳，啟動目前的風扇狀態。
-                controlJson["fan"] = 0 
-                hourstopTimeStamp = datetime.datetime.now() + datetime.timedelta(seconds=10)
-                print("風扇停止一小時")
-            elif (hourstopTimeStamp > datetime.datetime.now()):
-                controlJson["fan"] = 1
-                print("風扇停止一小時開十分鐘")
-                # 開啟 10 分鐘風扇後關閉
-                # controlMode = 4
-                # arduino.write(ControlMode(4).encode())
-            else:
-                controlJson["fan"] = 0
-                hourstartTimeStamp = ""
-                hourstopTimeStamp = ""
         # if(referenceJson["濕度"]>=85):
         #     controlJson["fan"] = 1  
             # 沒人 濕度大於85 UV開 加熱關 風扇開
     # print("mode",mode)
+
+    if(minstartTimeStamp == "" and controlJson["fan"] == 0):
+        if (hourstartTimeStamp == ""):
+            # 設定時間戳做完參考，開啟 UV 燈及風扇。
+            # controlMode = 5
+            # arduino.write(ControlMode(5).encode())
+            # print("controlmode = 5")
+            hourstartTimeStamp = datetime.datetime.now()
+        if ((hourstartTimeStamp + datetime.timedelta(hours=1)) > datetime.datetime.now()):
+            # 刷新每小時的時間戳，啟動目前的風扇狀態。
+            controlJson["fan"] = 0 
+            hourstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=10)
+            print("風扇停止一小時")
+        elif (hourstopTimeStamp > datetime.datetime.now()):
+            controlJson["fan"] = 1
+            print("風扇停止一小時開十分鐘")
+            # 開啟 10 分鐘風扇後關閉
+            # controlMode = 4
+            # arduino.write(ControlMode(4).encode())
+        else:
+            controlJson["fan"] = 0
+            hourstartTimeStamp = ""
+            hourstopTimeStamp = ""
+
     if (mode == 0):
         if (minstartTimeStamp == ""):
             # 設定時間戳做完參考
             minstartTimeStamp = datetime.datetime.now()
             # stopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=15)
-            minstopTimeStamp = datetime.datetime.now() + datetime.timedelta(seconds=15)
+            minstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=3)
             print("starttime",minstartTimeStamp)
             print("stoptime",minstopTimeStamp)
         elif (datetime.datetime.now() > minstopTimeStamp ):
@@ -171,7 +173,7 @@ while(True):
             minstopTimeStamp = ""
             mode = 2
 
-        elif (datetime.datetime.now() > minstartTimeStamp + datetime.timedelta(seconds=5)):
+        elif (datetime.datetime.now() > minstartTimeStamp + datetime.timedelta(seconds=10)):
             print("人走後經過5分鐘")
             controlJson["fan"] = 2
             # 人走後 5 分鐘使用全速

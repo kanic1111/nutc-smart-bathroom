@@ -1,6 +1,6 @@
 import paho.mqtt.subscribe as subscribe
 
-broker_ip = "10.20.0.19"
+broker_ip = "10.0.0.227"
 broker_port = 1883
 
 def set_mqtt(broker_user_ip, broker_user_port=1883):
