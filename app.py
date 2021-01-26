@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import configparser
 import requests
 import time
