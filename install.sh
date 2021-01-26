@@ -31,4 +31,4 @@ pm2 start node_modules/react-scripts/scripts/start.js --name "web-service"
 
 pip3 install -r requirements.txt
 
-pm2 start app.py --name "Control-Service"
+pm2 start app.py --interpreter python3 --interpreter-args -u --name "Control-Service"
