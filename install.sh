@@ -15,7 +15,7 @@ nvm alias default 10
 
 npm install -g pm2
 
-git clone https://github.com/TitanLi/Brunei-Hackathon.git ~/
+git clone https://github.com/TitanLi/Brunei-Hackathon.git ~/Brunei-Hackathon
 
 cd ~/Brunei-Hackathon/API/raspberry-pi
 
@@ -31,4 +31,4 @@ pm2 start node_modules/react-scripts/scripts/start.js --name "web-service"
 
 pip3 install -r requirements.txt
 
-pm2 start app.js --name "Control-Service"
+pm2 start app.py --name "Control-Service"
