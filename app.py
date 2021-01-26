@@ -15,16 +15,16 @@ registJson = {
     "mac": config["LOCAL_DEVICE"]["MAC"]
 }
 mode = 5
-referenceJson = {"濕度": 0 ,"人員":0}
+referenceJson = {"humid": 0 ,"person":0}
 # 風扇段數 0 關 / 3 最強
 readStatusJson = {'uv':0, 'heat': 0, 'fan':0}
 controlJson = {'uv':0, 'heat': 0, 'fan':0}
-preStatusJson = {"UV燈": 0, "加熱器": 0, "風扇": 0, "人員": 0}
+preStatusJson = {"UV": 0, "heat": 0, "fan": 0, "person": 0}
 
-uvStatusArray = ["開啟", "關閉"]
-heatStatusArray = ["開啟", "關閉"]
-fanStatusArray = ["關閉", "初速", "中速", "全速"]
-humanStatusArray = ["無人", "有人"]
+# uvStatusArray = ["開啟", "關閉"]
+# heatStatusArray = ["開啟", "關閉"]
+# fanStatusArray = ["關閉", "初速", "中速", "全速"]
+# humanStatusArray = ["無人", "有人"]
 
 gcpRegist = 0
 while(not gcpRegist):
@@ -65,17 +65,17 @@ while(True):
         # print(r.json()[x].get('value'))
         #    
     # if (r.json()[x].get('name') == "相對濕度"):
-    referenceJson["濕度"] = float(PIR231.PIR231_api.get_Humidity())
+    referenceJson["humid"] = float(PIR231.PIR231_api.get_Humidity())
     # print("濕度",referenceJson["濕度"])
     # if (r.json()[x].get('name') == "環境溫度"):
-    referenceJson["溫度"] = float(PIR231.PIR231_api.get_Temperature())
+    referenceJson["temp"] = float(PIR231.PIR231_api.get_Temperature())
     # print("溫度",referenceJson["溫度"])
     # if (r.json()[x].get('name') == "人員"):
-    preStatusJson["人員"] = referenceJson["人員"]
-    referenceJson["人員"] = int(PIR231.PIR231_api.get_PIR())
+    preStatusJson["person"] = referenceJson["person"]
+    referenceJson["person"] = int(PIR231.PIR231_api.get_PIR())
     # print("人員",referenceJson["人員"])
-    referenceJson["絕對濕度"] = round(6.112*(2.718*((17.67*float(referenceJson["溫度"]))/(float(referenceJson["溫度"])+243.5))*float(referenceJson["濕度"])*2.1674/(273.15+float(referenceJson["溫度"]))), 2)
-    referenceJson["露點溫度"] = float(PIR231.PIR231_api.get_DewPoint())
+    referenceJson["absolute_humid"] = round(6.112*(2.718*((17.67*float(referenceJson["temp"]))/(float(referenceJson["temp"])+243.5))*float(referenceJson["humid"])*2.1674/(273.15+float(referenceJson["temp"]))), 2)
+    referenceJson["Dew_temp"] = float(PIR231.PIR231_api.get_DewPoint())
         # print(type(referenceJson["人員"]))
     # print(referenceJson)
     # time.sleep(3)
@@ -94,16 +94,16 @@ while(True):
     # 7 = {'uv':0, 'heat': 1, 'fan':0}
     # 8 = {'uv':0, 'heat': 1, 'fan':2}
 
-    if (referenceJson["濕度"] <= 65 and referenceJson["溫度"] <= 30):
+    if (referenceJson["humid"] <= 65 and referenceJson["temp"] <= 30):
         # 溫度或濕度低於 30 或 65  風扇關 UV關
         if(minstartTimeStamp == ""):
             controlJson["fan"] = 0
-    elif(referenceJson["濕度"] >= 85 or referenceJson["溫度"] >= 35):
+    elif(referenceJson["humid"] >= 85 or referenceJson["temp"] >= 35):
             # 如果沒人 風扇都開
         
         controlJson["fan"] = 1 
         # mode = 4
-        if(preStatusJson["人員"] == 1 and referenceJson["人員"] == 0 ):
+        if(preStatusJson["person"] == 1 and referenceJson["person"] == 0 ):
             #人剛走 而且 溫濕度達標 計時五分鐘全速 十分鐘後 半速 
             mode = 0
     else:
@@ -111,21 +111,21 @@ while(True):
         #如果上面都沒符合 ex: 濕度介於 65 ~ 85 或 溫度 介於 30 ~ 35  維持原來狀態 底下判斷有沒有人在裡面
 
     
-    if(referenceJson["人員"] == 1):
+    if(referenceJson["person"] == 1):
         # 計時全清 有人UV燈關
         mode = 2
         minstartTimeStamp = ""
         minstopTimeStamp = ""  
         controlJson["uv"] = 0 
-        if (referenceJson["濕度"]>=85):
+        if (referenceJson["humid"]>=85):
             # 有人 濕度大於85 加熱器開 UV關
             hourstartTimeStamp = ""
             hourstopTimeStamp = "" 
             controlJson["heat"] = 1  
-        if (referenceJson["濕度"]<=65):
+        if (referenceJson["humid"]<=65):
             # 加熱關
             controlJson["heat"] = 0
-    elif(referenceJson["人員"] == 0):
+    elif(referenceJson["person"] == 0):
         #沒人 UV一律開啟 判斷濕度
         controlJson["uv"] = 1
         controlJson["heat"] = 0 
@@ -183,15 +183,15 @@ while(True):
         hourstartTimeStamp = ""
         hourstopTimeStamp = ""
     #readStatusJson = {"UV燈": 0, "加熱器": 0, "風扇": 0, "人員": 0}
-    referenceJson["UV燈"] ="開啟" if controlJson["uv"] else "關閉"
-    referenceJson["加熱器"] = "開啟" if controlJson["heat"] else "關閉"
+    referenceJson["UV"] ="ON" if controlJson["uv"] else "OFF"
+    referenceJson["heat"] = "ON" if controlJson["heat"] else "OFF"
     if controlJson["fan"] == 1:
-        referenceJson["風扇"] = "半速"
+        referenceJson["fan"] = "half_speed"
     elif controlJson["fan"] == 2:
-        referenceJson["風扇"] = "全速"
+        referenceJson["fan"] = "full_speed"
     else:
-        referenceJson["風扇"] = "關閉"
-    print("人員上一次狀態",(preStatusJson["人員"]))
+        referenceJson["fan"] = "closed"
+    print("人員上一次狀態",(preStatusJson["person"]))
     # print("人走後時間",minstartTimeStamp)
     # print("每一小時計算時間",hourstartTimeStamp)
     print(referenceJson)
@@ -203,20 +203,20 @@ while(True):
         sendStatus["sensorData"] = {}
         # sendStatus["sensorData"]["一氧化碳"] = float(PIR231_CO) + 1
         # sendStatus["sensorData"]["二氧化碳"] = float(PIR231_CO2)
-        sendStatus["sensorData"]["相對濕度"] = referenceJson["濕度"]
-        sendStatus["sensorData"]["環境溫度"] = referenceJson["溫度"]
-        sendStatus["sensorData"]["露點溫度"] = referenceJson["露點溫度"]
-        sendStatus["sensorData"]["絕對濕度"] = referenceJson["絕對濕度"]
-        sendStatus["sensorData"]["人員"] = referenceJson["人員"]
-        sendStatus["sensorData"]["UV燈"] = referenceJson["UV燈"]
-        sendStatus["sensorData"]["加熱器"] = referenceJson["加熱器"]
-        sendStatus["sensorData"]["風扇"] = referenceJson["風扇"]
+        sendStatus["sensorData"]["相對濕度"] = referenceJson["humid"]
+        sendStatus["sensorData"]["環境溫度"] = referenceJson["temp"]
+        sendStatus["sensorData"]["露點溫度"] = referenceJson["Dew_temp"]
+        sendStatus["sensorData"]["絕對濕度"] = referenceJson["absolute_humid"]
+        sendStatus["sensorData"]["人員"] = referenceJson["person"]
+        sendStatus["sensorData"]["UV燈"] = referenceJson["UV"]
+        sendStatus["sensorData"]["加熱器"] = referenceJson["heat"]
+        sendStatus["sensorData"]["風扇"] = referenceJson["fan"]
         r = requests.post(config["GCP"]["SERVER_PROTOCOL"] + "://" + config["GCP"]["SERVER_IP"] + ":" + config["GCP"]["SERVER_PORT"] + "/insert", json=sendStatus)
         print(r.text)
     except:
         print("Error")
         pass
-    print("人員上一次狀態",(preStatusJson["人員"]))
+    print("人員上一次狀態",(preStatusJson["person"]))
     # print("人走後時間",minstartTimeStamp)
     # print("每一小時計算時間",hourstartTimeStamp)
     print("現在狀態",controlJson)
@@ -228,4 +228,5 @@ while(True):
         # print(arduino_data)
         arduino.write(arduino_data.encode())
     time.sleep(3)
+
 
