@@ -1,174 +1,230 @@
-#include <ArduinoJson.h>
-int heat_autopin = 5;
-int heat_onpin = 4;
-int heat_offpin = 3;
-int heat_testpin = 2;
-int UV_autopin = 12;
-int UV_onpin = 11;
-int UV_offpin = 10;
-int UV_testpin = 9;
-int fan_autopin = 13;
-int fan_speedpin = A0;
-int fan_speed_value;
-const int fanControlPin = 6;
-const int uvControlPin = 7;
-const int heatControlPin = 8;
-int fanPreStatus = 0;
-int uvPreStatus = 2;
-int heatPreStatus = 2;
-String jsonreadstatus;
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  for(int i=2;i<6;i++)
-  {
-    pinMode(i, INPUT_PULLUP);
-  }
-  for(int i=9;i<13;i++)
-  {
-    pinMode(i, INPUT_PULLUP);
-  }
-  pinMode(A0, INPUT);
-  pinMode(fanControlPin, OUTPUT);
-  pinMode(uvControlPin, OUTPUT);
-  pinMode(heatControlPin, OUTPUT); 
-  analogWrite(fanControlPin, 0);
-  digitalWrite(uvControlPin, 1);
-  digitalWrite(heatControlPin, 1);
-}
+import configparser
+import requests
+import time
+import serial
+import json
+import datetime
+import PIR231.PIR231_api
 
-void loop() {
-  if(digitalRead(UV_onpin) == HIGH){
-    uvPreStatus = 1;
-    Serial.println("uv on");
-    digitalWrite(uvControlPin,0);
-  }
-  if(digitalRead(UV_offpin) == HIGH){
-    uvPreStatus = 0;
-    Serial.println("uv off");
-    digitalWrite(uvControlPin,1);
-  }
-  if(digitalRead(heat_onpin) == HIGH){
-    heatPreStatus = 1;
-    Serial.println("heat on");
-    digitalWrite(heatControlPin,0);
-  }
-  if(digitalRead(heat_offpin) == HIGH){
-    heatPreStatus = 0;
-    Serial.println("heat off");
-    digitalWrite(heatControlPin,1);
-  }
-  if(digitalRead(heat_autopin) == HIGH){
-    Serial.println("heat_automode");
-  }
-  if(digitalRead(UV_autopin) == HIGH){
-    Serial.println("UV_automode");
-  }
-  if(digitalRead(fan_autopin) == LOW){
-    Serial.println("fan_automode");
-  }
-  if(digitalRead(fan_autopin) == HIGH){
-    Serial.println("fan_contorlmode");
-    int A0_read_value = analogRead(fan_speedpin);
-    fan_speed_value = (A0_read_value/5)-102 ;
-   fanPreStatus = (fan_speed_value+30)/60;
-    if( fan_speed_value >= 0){
-        fanPreStatus = 1;
-       analogWrite(fanControlPin,fan_speed_value+30);
-       Serial.print("fan_speedvalue:");
-       Serial.println(fan_speed_value+30);
-    }
-    else{
-       analogWrite(fanControlPin,0);
-       Serial.print("fan_speedvalue:");
-       Serial.println(0);
-    }
-  }
-  String data;
-  int count = 0;
-  StaticJsonDocument<200> readjson;
-  // put your main code here, to run repeatedly:
-  if (Serial.available() > 0) {
-    data = Serial.readString();
-    count = data.length();
-    char json[count+1];
-    data.toCharArray(json, count+1);
-    Serial.println(json);
-    //  char json[] = "{\"sensor\":\"gps\",\"time\":1351824120,\"data\":[48.756080,2.302038]}";
-    StaticJsonDocument<200> jsonBuffer;
-    DeserializationError error = deserializeJson(jsonBuffer, json);
-//    Serial.println(); 
-    // Test if parsing succeeds.
-    if (error) {
-//      Serial.print(F("deserializeJson() failed: "));
-//      Serial.println(error.c_str());
-      return;
-    }
-    if (jsonBuffer["fan"].is<int>() and (jsonBuffer["fan"] >= 0 or jsonBuffer["fan"] <= 3) and digitalRead(fan_autopin) == LOW ) {
-        Serial.print("fan-receiveStatus:");
-        Serial.println(int(jsonBuffer["fan"]));
-        if (fanPreStatus != jsonBuffer["fan"]){
-          fanPreStatus = jsonBuffer["fan"];
-          analogWrite(fanControlPin, int(jsonBuffer["fan"])*60);
-        }
-    }
-    
-    if (jsonBuffer["uv"].is<int>() and (jsonBuffer["uv"] == 0 or jsonBuffer["uv"] == 1) and digitalRead(UV_autopin) == HIGH ) {
-        Serial.print("uv-receiveStatus:");
-        Serial.println(int(jsonBuffer["uv"]));
-        if (uvPreStatus != jsonBuffer["uv"]){
-          uvPreStatus = jsonBuffer["uv"];
-          digitalWrite(uvControlPin, !int(jsonBuffer["uv"]));
-        }
-    }
-    
-    if (jsonBuffer["heat"].is<int>() and (jsonBuffer["heat"] == 0 or jsonBuffer["heat"] == 1) and digitalRead(heat_autopin) == HIGH) {
-        Serial.print("heat-receiveStatus:");
-        Serial.println(int(jsonBuffer["heat"]));
-        if (heatPreStatus != jsonBuffer["heat"]){
-          heatPreStatus = jsonBuffer["heat"];
-          digitalWrite(heatControlPin, !int(jsonBuffer["heat"]));
-        }
-    }
-    jsonreadstatus = "";
-    serializeJson(jsonBuffer, jsonreadstatus);
-  }
-  else{
-       Serial.println("fan Status:");
-       Serial.print(fanPreStatus);
-//        Serial.print("uvstatus:");
-//        Serial.println(uvPreStatus);
-//        Serial.print("heatstatus:");
-//        Serial.println(heatPreStatus);
-      DeserializationError error =  deserializeJson(readjson, jsonreadstatus);
-    if(readjson["uv"].is<int>() and int(readjson["uv"]) != uvPreStatus  and digitalRead(UV_autopin) == HIGH ){
-    Serial.println("write uv automode last value");
-    uvPreStatus = int(readjson["uv"]);
-    digitalWrite(uvControlPin, !int(readjson["uv"]));    
-  }
-  if(readjson["heat"].is<int>() and int(readjson["heat"]) != heatPreStatus  and digitalRead(heat_autopin) == HIGH ){
-    Serial.println("write heat automode last value");
-    heatPreStatus = int(readjson["heat"]);
-    digitalWrite(heatControlPin, !int(readjson["uv"]));    
-  }
-  if(readjson["fan"].is<int>() and int(readjson["fan"]) != fanPreStatus  and digitalRead(fan_autopin) == LOW){
-    Serial.println("write fan automode last value");
-    fanPreStatus = int(readjson["fan"]);
-    analogWrite(fanControlPin, int(readjson["fan"])*60);    
-  }
-  }
-  if(digitalRead(UV_testpin) == HIGH){
-    Serial.println("UV Debug Mode:");
-    Serial.print("uvstatus:");
-    Serial.println(uvPreStatus);
-  }
-  if(digitalRead(heat_testpin) == HIGH){
-    Serial.println("heat Debug Mode:");
-    Serial.print("heatstatus:");
-    Serial.println(heatPreStatus);
-  }
-  Serial.println(jsonreadstatus);
-//  Serial.print(int(readjson["uv"]));
-//  Serial.print("==========");
-delay(1000);
+# Load data from config.ini file
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+registJson = {
+    "ip": config["LOCAL_DEVICE"]["IP"],
+    "mac": config["LOCAL_DEVICE"]["MAC"]
 }
+mode = 5
+referenceJson = {"濕度": 0 ,"人員":0}
+# 風扇段數 0 關 / 3 最強
+readStatusJson = {'uv':0, 'heat': 0, 'fan':0}
+controlJson = {'uv':0, 'heat': 0, 'fan':0}
+preStatusJson = {"UV燈": 0, "加熱器": 0, "風扇": 0, "人員": 0}
+
+uvStatusArray = ["開啟", "關閉"]
+heatStatusArray = ["開啟", "關閉"]
+fanStatusArray = ["關閉", "初速", "中速", "全速"]
+humanStatusArray = ["無人", "有人"]
+
+gcpRegist = 0
+while(not gcpRegist):
+    try:
+        # print(config["GCP"]["SERVER_PROTOCOL"] + "://" + config["GCP"]["SERVER_IP"] + ":" + config["GCP"]["SERVER_PORT"] + "/devices")
+        r = requests.post(config["GCP"]["SERVER_PROTOCOL"] + "://" + config["GCP"]["SERVER_IP"] + ":" + config["GCP"]["SERVER_PORT"] + "/devices", json=registJson)
+        print(str(datetime.datetime.now()) + "\tGCP Device Regist Status:", r.json()["status"])
+        gcpRegist = 1
+    except:
+        print(str(datetime.datetime.now()) + "\tGCP Device Regist Error")
+        time.sleep(3)
+
+portOpen = 0
+
+while (not portOpen):
+    try:
+        print(str(datetime.datetime.now()) + "\tSerial try Open")
+        arduino = serial.Serial(config["LOCAL_DEVICE"]["SERIAL"],9600)
+        print(str(datetime.datetime.now()) + "\tSerial Open")
+        portOpen = not portOpen 
+    except:
+        print(str(datetime.datetime.now()) + "\tRetry Open Serial")
+        time.sleep(3)
+
+minstartTimeStamp = ""
+minstopTimeStamp = ""
+hourstartTimeStamp = ""
+hourstopTimeStamp = datetime.datetime.now()
+while(True):
+    print(config["GCP"]["SERVER_PROTOCOL"] + "://" + config["GCP"]["SERVER_IP"] + ":" + config["GCP"]["SERVER_PORT"] + "/query/" + config["CLOUD_DEVICE"]["MAC"])
+    r = requests.get(config["GCP"]["SERVER_PROTOCOL"] + "://" + config["GCP"]["SERVER_IP"] + ":" + config["GCP"]["SERVER_PORT"] + "/query/" + config["CLOUD_DEVICE"]["MAC"])
+    # print(r.text)
+    # re = requests.post('http://127.0.0.1:30001/insert', data = r)
+    mac = { "mac" : config["LOCAL_DEVICE"]["MAC"]}
+    # print("汶萊資料查看",r.json())
+    # for x in range(0, len(r.json())):
+        # print(r.json()[x].get('name'))
+        # print(r.json()[x].get('value'))
+        #    
+    # if (r.json()[x].get('name') == "相對濕度"):
+    referenceJson["濕度"] = float(PIR231.PIR231_api.get_Humidity())
+    # print("濕度",referenceJson["濕度"])
+    # if (r.json()[x].get('name') == "環境溫度"):
+    referenceJson["溫度"] = float(PIR231.PIR231_api.get_Temperature())
+    # print("溫度",referenceJson["溫度"])
+    # if (r.json()[x].get('name') == "人員"):
+    preStatusJson["人員"] = referenceJson["人員"]
+    referenceJson["人員"] = int(PIR231.PIR231_api.get_PIR())
+    # print("人員",referenceJson["人員"])
+    referenceJson["絕對濕度"] = round(6.112*(2.718*((17.67*float(referenceJson["溫度"]))/(float(referenceJson["溫度"])+243.5))*float(referenceJson["濕度"])*2.1674/(273.15+float(referenceJson["溫度"]))), 2)
+    referenceJson["露點溫度"] = float(PIR231.PIR231_api.get_DewPoint())
+        # print(type(referenceJson["人員"]))
+    # print(referenceJson)
+    # time.sleep(3)
+
+    # define controlMode
+    # 純風扇
+    # 0 = {'uv':0, 'heat': 0, 'fan':0}
+    # 1 = {'uv':0, 'heat': 0, 'fan':1}
+    # 2 = {'uv':0, 'heat': 0, 'fan':2}
+    # 3 = {'uv':0, 'heat': 0, 'fan':3}
+    # UV 燈開
+    # 4 = {'uv':1, 'heat': 0, 'fan':0}
+    # 5 = {'uv':1, 'heat': 0, 'fan':2}
+    # 6 = {'uv':1, 'heat': 0, 'fan':3}
+    # 加熱器開
+    # 7 = {'uv':0, 'heat': 1, 'fan':0}
+    # 8 = {'uv':0, 'heat': 1, 'fan':2}
+
+    if (referenceJson["濕度"] <= 65 and referenceJson["溫度"] <= 30):
+        # 溫度或濕度低於 30 或 65  風扇關 UV關
+        if(minstartTimeStamp == ""):
+            controlJson["fan"] = 0
+    elif(referenceJson["濕度"] >= 85 or referenceJson["溫度"] >= 35):
+            # 如果沒人 風扇都開
+        
+        controlJson["fan"] = 1 
+        # mode = 4
+        if(preStatusJson["人員"] == 1 and referenceJson["人員"] == 0 ):
+            #人剛走 而且 溫濕度達標 計時五分鐘全速 十分鐘後 半速 
+            mode = 0
+    else:
+        pass
+        #如果上面都沒符合 ex: 濕度介於 65 ~ 85 或 溫度 介於 30 ~ 35  維持原來狀態 底下判斷有沒有人在裡面
+
+    
+    if(referenceJson["人員"] == 1):
+        # 計時全清 有人UV燈關
+        mode = 2
+        minstartTimeStamp = ""
+        minstopTimeStamp = ""  
+        controlJson["uv"] = 0 
+        if (referenceJson["濕度"]>=85):
+            # 有人 濕度大於85 加熱器開 UV關
+            hourstartTimeStamp = ""
+            hourstopTimeStamp = "" 
+            controlJson["heat"] = 1  
+        if (referenceJson["濕度"]<=65):
+            # 加熱關
+            controlJson["heat"] = 0
+    elif(referenceJson["人員"] == 0):
+        #沒人 UV一律開啟 判斷濕度
+        controlJson["uv"] = 1
+        controlJson["heat"] = 0 
+        # if(referenceJson["濕度"]>=85):
+        #     controlJson["fan"] = 1  
+            # 沒人 濕度大於85 UV開 加熱關 風扇開
+    # print("mode",mode)
+
+    if(minstartTimeStamp == "" and controlJson["fan"] == 0):
+        if (hourstartTimeStamp == ""):
+            # 設定時間戳做完參考，開啟 UV 燈及風扇。
+            # controlMode = 5
+            # arduino.write(ControlMode(5).encode())
+            # print("controlmode = 5")
+            hourstartTimeStamp = datetime.datetime.now()
+        if ((hourstartTimeStamp + datetime.timedelta(hours=1)) > datetime.datetime.now()):
+            # 刷新每小時的時間戳，啟動目前的風扇狀態。
+            controlJson["fan"] = 0 
+            hourstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=10)
+            print("風扇停止一小時")
+        elif (hourstopTimeStamp > datetime.datetime.now()):
+            controlJson["fan"] = 1
+            print("風扇停止一小時開十分鐘")
+            # 開啟 10 分鐘風扇後關閉
+            # controlMode = 4
+            # arduino.write(ControlMode(4).encode())
+        else:
+            controlJson["fan"] = 0
+            hourstartTimeStamp = ""
+            hourstopTimeStamp = ""
+
+    if (mode == 0):
+        if (minstartTimeStamp == ""):
+            # 設定時間戳做完參考
+            minstartTimeStamp = datetime.datetime.now()
+            # stopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=15)
+            minstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=3)
+            print("starttime",minstartTimeStamp)
+            print("stoptime",minstopTimeStamp)
+        elif (datetime.datetime.now() > minstopTimeStamp ):
+            #經過15分鐘 將風扇轉速條到1 回去前面判斷溫濕度
+            print("經過15分鐘")
+            controlJson["fan"] = 1
+            minstartTimeStamp = ""
+            minstopTimeStamp = ""
+            mode = 2
+
+        elif (datetime.datetime.now() > minstartTimeStamp + datetime.timedelta(seconds=10)):
+            print("人走後經過5分鐘")
+            controlJson["fan"] = 2
+            # 人走後 5 分鐘使用全速
+
+    if(controlJson["fan"] >= 1 and hourstopTimeStamp == ""):
+        #如果風扇打開 將關閉每小時開十分鐘的計時歸零
+        hourstartTimeStamp = ""
+        hourstopTimeStamp = ""
+    #readStatusJson = {"UV燈": 0, "加熱器": 0, "風扇": 0, "人員": 0}
+    referenceJson["UV燈"] ="開啟" if controlJson["uv"] else "關閉"
+    referenceJson["加熱器"] = "開啟" if controlJson["heat"] else "關閉"
+    if controlJson["fan"] == 1:
+        referenceJson["風扇"] = "半速"
+    elif controlJson["fan"] == 2:
+        referenceJson["風扇"] = "全速"
+    else:
+        referenceJson["風扇"] = "關閉"
+    print("人員上一次狀態",(preStatusJson["人員"]))
+    # print("人走後時間",minstartTimeStamp)
+    # print("每一小時計算時間",hourstartTimeStamp)
+    print(referenceJson)
+    arduino_data = json.dumps(controlJson)
+    arduino.write(arduino_data.encode())
+    try:
+        sendStatus = {}
+        sendStatus["mac"] = config["PIR231_DEVICE"]["MAC"]
+        sendStatus["sensorData"] = {}
+        # sendStatus["sensorData"]["一氧化碳"] = float(PIR231_CO) + 1
+        # sendStatus["sensorData"]["二氧化碳"] = float(PIR231_CO2)
+        sendStatus["sensorData"]["相對濕度"] = referenceJson["濕度"]
+        sendStatus["sensorData"]["環境溫度"] = referenceJson["溫度"]
+        sendStatus["sensorData"]["露點溫度"] = referenceJson["露點溫度"]
+        sendStatus["sensorData"]["絕對濕度"] = referenceJson["絕對濕度"]
+        sendStatus["sensorData"]["人員"] = referenceJson["人員"]
+        sendStatus["sensorData"]["UV燈"] = referenceJson["UV燈"]
+        sendStatus["sensorData"]["加熱器"] = referenceJson["加熱器"]
+        sendStatus["sensorData"]["風扇"] = referenceJson["風扇"]
+        r = requests.post(config["GCP"]["SERVER_PROTOCOL"] + "://" + config["GCP"]["SERVER_IP"] + ":" + config["GCP"]["SERVER_PORT"] + "/insert", json=sendStatus)
+        print(r.text)
+    except:
+        print("Error")
+        pass
+    print("人員上一次狀態",(preStatusJson["人員"]))
+    # print("人走後時間",minstartTimeStamp)
+    # print("每一小時計算時間",hourstartTimeStamp)
+    print("現在狀態",controlJson)
+    print("讀取狀態",readStatusJson)
+    if(controlJson != readStatusJson):
+        readStatusJson = controlJson.copy()
+        print("控制寫入arduino")
+        arduino_data = json.dumps(controlJson)
+        # print(arduino_data)
+        arduino.write(arduino_data.encode())
+    time.sleep(3)
