@@ -42,7 +42,7 @@ portOpen = 0
 while (not portOpen):
     try:
         print(str(datetime.datetime.now()) + "\tSerial try Open")
-        arduino = serial.Serial(config["LOCAL_DEVICE"]["SERIAL"],9600)
+        arduino = serial.Serial(config["LOCAL_DEVICE"]["SERIAL"],baudrate=9600,write_timeout = 3,rtscts=False,dsrdtr=False)
         print(str(datetime.datetime.now()) + "\tSerial Open")
         portOpen = not portOpen 
     except:
@@ -78,7 +78,7 @@ while(True):
     referenceJson["露點溫度"] = float(PIR231.PIR231_api.get_DewPoint())
         # print(type(referenceJson["人員"]))
     # print(referenceJson)
-    # time.sleep(3)
+    time.sleep(3)
 
     # define controlMode
     # 純風扇
@@ -162,7 +162,7 @@ while(True):
             # 設定時間戳做完參考
             minstartTimeStamp = datetime.datetime.now()
             # stopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=15)
-            minstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=3)
+            minstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=15)
             print("starttime",minstartTimeStamp)
             print("stoptime",minstopTimeStamp)
         elif (datetime.datetime.now() > minstopTimeStamp ):
@@ -173,7 +173,7 @@ while(True):
             minstopTimeStamp = ""
             mode = 2
 
-        elif (datetime.datetime.now() > minstartTimeStamp + datetime.timedelta(seconds=10)):
+        elif (datetime.datetime.now() > minstartTimeStamp + datetime.timedelta(minutes=5)):
             print("人走後經過5分鐘")
             controlJson["fan"] = 2
             # 人走後 5 分鐘使用全速
@@ -191,12 +191,20 @@ while(True):
         referenceJson["風扇"] = "全速"
     else:
         referenceJson["風扇"] = "關閉"
-    print("人員上一次狀態",(preStatusJson["人員"]))
+    print("現在狀態",controlJson)
+    print("讀取狀態",readStatusJson)
+    if(controlJson != readStatusJson):
+        readStatusJson = controlJson.copy()
+        print("控制寫入arduino")
+        arduino_data = json.dumps(controlJson)
+        # print(arduino_data)
+        arduino.write(arduino_data.encode())
+        # time.sleep(3)
     # print("人走後時間",minstartTimeStamp)
     # print("每一小時計算時間",hourstartTimeStamp)
     print(referenceJson)
-    arduino_data = json.dumps(controlJson)
-    arduino.write(arduino_data.encode())
+    #arduino_data = json.dumps(controlJson)
+    #arduino.write(arduino_data.encode())
     try:
         sendStatus = {}
         sendStatus["mac"] = config["PIR231_DEVICE"]["MAC"]
@@ -219,12 +227,5 @@ while(True):
     print("人員上一次狀態",(preStatusJson["人員"]))
     # print("人走後時間",minstartTimeStamp)
     # print("每一小時計算時間",hourstartTimeStamp)
-    print("現在狀態",controlJson)
-    print("讀取狀態",readStatusJson)
-    if(controlJson != readStatusJson):
-        readStatusJson = controlJson.copy()
-        print("控制寫入arduino")
-        arduino_data = json.dumps(controlJson)
-        # print(arduino_data)
-        arduino.write(arduino_data.encode())
-    time.sleep(3)
+    time.sleep(2)
+
