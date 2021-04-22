@@ -165,25 +165,28 @@ while(True):
 
     if (mode == 0):
         controlJson["fan"] = 2
-        if (minstartTimeStamp == ""):
-            # 設定時間戳做完參考
-            minstartTimeStamp = datetime.datetime.now()
-            # stopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=15)
-            minstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=15)
-            print("starttime",minstartTimeStamp)
-            print("stoptime",minstopTimeStamp)
-        elif (datetime.datetime.now() > minstopTimeStamp ):
-            #經過15分鐘 將風扇轉速條到1 回去前面判斷溫濕度
-            print("經過15分鐘")
-            controlJson["fan"] = 1
-            minstartTimeStamp = ""
-            minstopTimeStamp = ""
+        if (referenceJson["濕度"]<=65):
+            controlJson["fan"] = 0
             mode = 2
+        # if (minstartTimeStamp == ""):
+        #     # 設定時間戳做完參考
+        #     minstartTimeStamp = datetime.datetime.now()
+        #     # stopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=15)
+        #     minstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=15)
+        #     print("starttime",minstartTimeStamp)
+        #     print("stoptime",minstopTimeStamp)
+        # elif (datetime.datetime.now() > minstopTimeStamp ):
+        #     #經過15分鐘 將風扇轉速條到1 回去前面判斷溫濕度
+        #     print("經過15分鐘")
+        #     controlJson["fan"] = 1
+        #     minstartTimeStamp = ""
+        #     minstopTimeStamp = ""
+        #     mode = 2
 
-        elif (datetime.datetime.now() > minstartTimeStamp + datetime.timedelta(minutes=5)):
-            print("人走後經過5分鐘")
-            controlJson["fan"] = 2
-            # 人走後 5 分鐘使用全速
+        # elif (datetime.datetime.now() > minstartTimeStamp + datetime.timedelta(minutes=5)):
+        #     print("人走後經過5分鐘")
+        #     controlJson["fan"] = 2
+        #     # 人走後 5 分鐘使用全速
 
     if(controlJson["fan"] >= 1 and hourstopTimeStamp == ""):
         #如果風扇打開 將關閉每小時開十分鐘的計時歸零
