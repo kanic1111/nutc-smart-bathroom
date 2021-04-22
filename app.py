@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import configparser
 import requests
 import time
@@ -5,6 +7,7 @@ import serial
 import json
 import datetime
 import PIR231.PIR231_api
+from pymongo import MongoClient
 
 # Load data from config.ini file
 config = configparser.ConfigParser()
@@ -25,6 +28,9 @@ uvStatusArray = ["開啟", "關閉"]
 heatStatusArray = ["開啟", "關閉"]
 fanStatusArray = ["關閉", "初速", "中速", "全速"]
 humanStatusArray = ["無人", "有人"]
+Mongo = MongoClient()
+db = Mongo.PIR231_value
+collection = db.control_value
 
 gcpRegist = 0
 while(not gcpRegist):
@@ -220,6 +226,7 @@ while(True):
         sendStatus["sensorData"]["加熱器"] = referenceJson["加熱器"]
         sendStatus["sensorData"]["風扇"] = referenceJson["風扇"]
         r = requests.post(config["GCP"]["SERVER_PROTOCOL"] + "://" + config["GCP"]["SERVER_IP"] + ":" + config["GCP"]["SERVER_PORT"] + "/insert", json=sendStatus)
+        insertStatus = collection.insert_one(sendStatus["sensorData"])
         print(r.text)
     except:
         print("Error")
