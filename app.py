@@ -164,6 +164,7 @@ while(True):
             hourstopTimeStamp = ""
 
     if (mode == 0):
+        controlJson["fan"] = 2
         if (minstartTimeStamp == ""):
             # 設定時間戳做完參考
             minstartTimeStamp = datetime.datetime.now()
@@ -236,3 +237,4 @@ while(True):
     # print("每一小時計算時間",hourstartTimeStamp)
     time.sleep(2)
 
+    
