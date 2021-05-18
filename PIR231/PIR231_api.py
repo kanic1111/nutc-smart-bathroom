@@ -1,6 +1,6 @@
 import paho.mqtt.subscribe as subscribe
 
-broker_ip = "10.0.0.227"
+broker_ip = "10.0.100.1"
 broker_port = 1883
 
 def set_mqtt(broker_user_ip, broker_user_port=1883):
@@ -11,7 +11,7 @@ def set_mqtt(broker_user_ip, broker_user_port=1883):
 
 def create_Subscribe(listen_topic):
 #    print("mqtt_server = %s, mqtt_port = %s" %(broker_ip, broker_port))
-    msg = subscribe.simple(listen_topic, hostname=broker_ip, port=broker_port, keepalive=15)
+    msg = subscribe.simple(listen_topic, hostname=broker_ip, port=broker_port, keepalive=5)
 #    print("Topic = %s, Payload = %s" % (msg.topic, msg.payload.decode('utf-8')))
     return msg.payload.decode('utf-8')
 

@@ -33,7 +33,7 @@ cd ~/nutc-smart-bathroom
 
 pip3 install -r requirements.txt
 
-pm2 start app.py --interpreter python3 --interpreter-args -u --name "Control-Service" -l ./Control-service.log
+pm2 start app.py --interpreter python3 --interpreter-args -u --name "Control-Service"
 
 pm2 save
 

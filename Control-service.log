@@ -1,0 +1,4570 @@
+2021-03-04 02:36:55.786543	GCP Device Regist Status: successfully
+2021-03-04 02:36:55.786795	Serial try Open
+2021-03-04 02:36:55.788279	Serial Open
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999871
+人員上一次狀態 0
+{'humid': 91.4, 'person': 0, 'temp': 32.4, 'absolute_humid': 22.35, 'Dew_temp': 30.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999939
+人員上一次狀態 0
+{'humid': 91.4, 'person': 0, 'temp': 32.4, 'absolute_humid': 22.35, 'Dew_temp': 30.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999869
+人員上一次狀態 0
+{'humid': 91.4, 'person': 0, 'temp': 32.3, 'absolute_humid': 22.3, 'Dew_temp': 30.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999867
+人員上一次狀態 0
+{'humid': 91.4, 'person': 0, 'temp': 32.3, 'absolute_humid': 22.3, 'Dew_temp': 30.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999868
+人員上一次狀態 0
+{'humid': 91.4, 'person': 0, 'temp': 32.2, 'absolute_humid': 22.24, 'Dew_temp': 30.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999870
+人員上一次狀態 0
+{'humid': 91.3, 'person': 0, 'temp': 32.2, 'absolute_humid': 22.22, 'Dew_temp': 30.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999869
+人員上一次狀態 0
+{'humid': 91.4, 'person': 0, 'temp': 32.1, 'absolute_humid': 22.19, 'Dew_temp': 30.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999867
+人員上一次狀態 0
+{'humid': 91.3, 'person': 0, 'temp': 32.0, 'absolute_humid': 22.11, 'Dew_temp': 30.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999869
+人員上一次狀態 0
+{'humid': 91.3, 'person': 1, 'temp': 32.0, 'absolute_humid': 22.11, 'Dew_temp': 30.4, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 1, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999870
+人員上一次狀態 1
+{'humid': 91.3, 'person': 1, 'temp': 32.0, 'absolute_humid': 22.11, 'Dew_temp': 30.4, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999869
+人員上一次狀態 1
+{'humid': 91.2, 'person': 1, 'temp': 31.9, 'absolute_humid': 22.03, 'Dew_temp': 30.2, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999872
+人員上一次狀態 1
+{'humid': 91.2, 'person': 1, 'temp': 31.9, 'absolute_humid': 22.03, 'Dew_temp': 30.2, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999869
+人員上一次狀態 1
+{'humid': 91.0, 'person': 1, 'temp': 31.7, 'absolute_humid': 21.88, 'Dew_temp': 30.0, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999868
+人員上一次狀態 1
+{'humid': 90.8, 'person': 1, 'temp': 31.7, 'absolute_humid': 21.83, 'Dew_temp': 30.0, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999893
+人員上一次狀態 1
+{'humid': 90.5, 'person': 1, 'temp': 31.7, 'absolute_humid': 21.76, 'Dew_temp': 29.8, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999868
+人員上一次狀態 1
+{'humid': 89.8, 'person': 1, 'temp': 31.6, 'absolute_humid': 21.53, 'Dew_temp': 29.6, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999868
+人員上一次狀態 1
+{'humid': 88.5, 'person': 1, 'temp': 31.6, 'absolute_humid': 21.22, 'Dew_temp': 29.3, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999871
+人員上一次狀態 1
+{'humid': 86.5, 'person': 1, 'temp': 31.5, 'absolute_humid': 20.69, 'Dew_temp': 28.6, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:56.044922
+人員上一次狀態 1
+{'humid': 83.2, 'person': 1, 'temp': 31.5, 'absolute_humid': 19.9, 'Dew_temp': 27.5, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:51.395220
+人員上一次狀態 1
+{'humid': 77.8, 'person': 1, 'temp': 31.4, 'absolute_humid': 18.56, 'Dew_temp': 26.9, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:36.514710
+人員上一次狀態 1
+{'humid': 72.0, 'person': 1, 'temp': 31.5, 'absolute_humid': 17.22, 'Dew_temp': 25.8, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:32.014599
+人員上一次狀態 1
+{'humid': 71.3, 'person': 1, 'temp': 31.5, 'absolute_humid': 17.06, 'Dew_temp': 25.5, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:28.014504
+人員上一次狀態 1
+{'humid': 70.3, 'person': 1, 'temp': 31.5, 'absolute_humid': 16.82, 'Dew_temp': 25.3, 'UV': '關閉', 'heat': '開啟', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:24.514745
+人員上一次狀態 1
+{'humid': 69.4, 'person': 0, 'temp': 31.5, 'absolute_humid': 16.6, 'Dew_temp': 25.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:20.014409
+人員上一次狀態 0
+{'humid': 68.4, 'person': 0, 'temp': 31.6, 'absolute_humid': 16.4, 'Dew_temp': 24.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:16.514223
+人員上一次狀態 0
+{'humid': 67.5, 'person': 0, 'temp': 31.6, 'absolute_humid': 16.19, 'Dew_temp': 24.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:12.014170
+人員上一次狀態 0
+{'humid': 67.3, 'person': 0, 'temp': 31.6, 'absolute_humid': 16.14, 'Dew_temp': 24.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:06.893309
+人員上一次狀態 0
+{'humid': 66.9, 'person': 0, 'temp': 31.6, 'absolute_humid': 16.04, 'Dew_temp': 24.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:03.013970
+人員上一次狀態 0
+{'humid': 66.5, 'person': 1, 'temp': 31.6, 'absolute_humid': 15.95, 'Dew_temp': 24.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:59.513648
+人員上一次狀態 1
+{'humid': 66.2, 'person': 0, 'temp': 31.6, 'absolute_humid': 15.88, 'Dew_temp': 24.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:56.481391
+人員上一次狀態 0
+{'humid': 66.1, 'person': 1, 'temp': 31.6, 'absolute_humid': 15.85, 'Dew_temp': 24.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+  File "/home/pi/nutc-smart-bathroom/app.py", line 142
+    if (hourstartTimeStamp == "" and controlJson["fan"] = 0):
+                                                        ^
+SyntaxError: invalid syntax
+2021-03-04 02:40:19.340379	GCP Device Regist Status: successfully
+2021-03-04 02:40:19.340626	Serial try Open
+2021-03-04 02:40:19.343082	Serial Open
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999868
+人員上一次狀態 0
+{'humid': 60.0, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.42, 'Dew_temp': 22.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:54.939082
+人員上一次狀態 0
+{'humid': 59.9, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.4, 'Dew_temp': 22.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:50.999960
+人員上一次狀態 0
+{'humid': 60.0, 'person': 1, 'temp': 31.7, 'absolute_humid': 14.42, 'Dew_temp': 23.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:47.500020
+人員上一次狀態 1
+{'humid': 60.1, 'person': 1, 'temp': 31.7, 'absolute_humid': 14.45, 'Dew_temp': 23.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:43.499438
+人員上一次狀態 1
+{'humid': 60.1, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.45, 'Dew_temp': 23.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:38.999427
+人員上一次狀態 0
+{'humid': 60.1, 'person': 1, 'temp': 31.7, 'absolute_humid': 14.45, 'Dew_temp': 23.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:35.499359
+人員上一次狀態 1
+{'humid': 60.0, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.42, 'Dew_temp': 22.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:30.438227
+人員上一次狀態 0
+{'humid': 59.7, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.35, 'Dew_temp': 22.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:25.438456
+人員上一次狀態 0
+{'humid': 59.5, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.3, 'Dew_temp': 22.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:21.949288
+人員上一次狀態 0
+{'humid': 59.3, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.26, 'Dew_temp': 22.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:17.999301
+人員上一次狀態 0
+{'humid': 59.3, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.26, 'Dew_temp': 22.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:14.000249
+人員上一次狀態 0
+{'humid': 59.3, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.26, 'Dew_temp': 22.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+2021-03-04 02:41:43.435648	GCP Device Regist Status: successfully
+2021-03-04 02:41:43.435895	Serial try Open
+2021-03-04 02:41:43.437786	Serial Open
+http://127.0.0.1:30001/query/012345678900
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:09.998754
+人員上一次狀態 0
+{'humid': 59.5, 'person': 0, 'temp': 31.7, 'absolute_humid': 14.3, 'Dew_temp': 22.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+data-received-error
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+2021-03-04 02:42:08.006592	GCP Device Regist Status: successfully
+2021-03-04 02:42:08.006840	Serial try Open
+2021-03-04 02:42:08.008398	Serial Open
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+2021-03-04 02:43:41.654627	GCP Device Regist Status: successfully
+2021-03-04 02:43:41.654876	Serial try Open
+2021-03-04 02:43:41.656214	Serial Open
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999872
+人員上一次狀態 0
+{'humid': 57.7, 'person': 0, 'temp': 31.7, 'absolute_humid': 13.87, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:55.499804
+人員上一次狀態 0
+{'humid': 57.5, 'person': 0, 'temp': 31.7, 'absolute_humid': 13.82, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:50.149704
+人員上一次狀態 0
+{'humid': 57.5, 'person': 0, 'temp': 31.7, 'absolute_humid': 13.82, 'Dew_temp': 22.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:46.499643
+人員上一次狀態 0
+{'humid': 57.4, 'person': 0, 'temp': 31.7, 'absolute_humid': 13.8, 'Dew_temp': 22.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:42.499550
+人員上一次狀態 0
+{'humid': 57.4, 'person': 0, 'temp': 31.7, 'absolute_humid': 13.8, 'Dew_temp': 22.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:38.499428
+人員上一次狀態 0
+{'humid': 57.4, 'person': 0, 'temp': 31.7, 'absolute_humid': 13.8, 'Dew_temp': 22.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:34.499341
+人員上一次狀態 0
+{'humid': 57.3, 'person': 1, 'temp': 31.7, 'absolute_humid': 13.77, 'Dew_temp': 22.2, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:30.499245
+人員上一次狀態 1
+{'humid': 57.2, 'person': 1, 'temp': 31.7, 'absolute_humid': 13.75, 'Dew_temp': 22.1, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:26.499186
+人員上一次狀態 1
+{'humid': 57.3, 'person': 0, 'temp': 31.6, 'absolute_humid': 13.74, 'Dew_temp': 22.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:22.499066
+人員上一次狀態 0
+{'humid': 57.6, 'person': 1, 'temp': 31.6, 'absolute_humid': 13.81, 'Dew_temp': 22.3, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:18.499063
+人員上一次狀態 1
+{'humid': 57.9, 'person': 1, 'temp': 31.6, 'absolute_humid': 13.88, 'Dew_temp': 22.3, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+2021-03-04 02:44:42.544909	GCP Device Regist Status: successfully
+2021-03-04 02:44:42.545155	Serial try Open
+2021-03-04 02:44:42.548115	Serial Open
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+Traceback (most recent call last):
+  File "/home/pi/nutc-smart-bathroom/app.py", line 148, in <module>
+    if ((hourstartTimeStamp + datetime.timedelta(hours=1)) > datetime.datetime.now()):
+TypeError: can only concatenate str (not "datetime.timedelta") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/nutc-smart-bathroom/app.py", line 246, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+2021-03-04 02:45:12.850264	GCP Device Regist Status: successfully
+2021-03-04 02:45:12.850506	Serial try Open
+2021-03-04 02:45:12.853546	Serial Open
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999868
+人員上一次狀態 0
+{'humid': 58.8, 'person': 1, 'temp': 31.6, 'absolute_humid': 14.1, 'Dew_temp': 22.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:55.999475
+人員上一次狀態 1
+{'humid': 58.8, 'person': 0, 'temp': 31.6, 'absolute_humid': 14.1, 'Dew_temp': 22.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:51.957575
+人員上一次狀態 0
+{'humid': 59.0, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.11, 'Dew_temp': 22.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+2021-03-04 02:45:28.307354	GCP Device Regist Status: successfully
+2021-03-04 02:45:28.307598	Serial try Open
+2021-03-04 02:45:28.308828	Serial Open
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:59.999873
+人員上一次狀態 0
+{'humid': 58.7, 'person': 1, 'temp': 31.5, 'absolute_humid': 14.04, 'Dew_temp': 22.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:55.999774
+人員上一次狀態 1
+{'humid': 58.8, 'person': 1, 'temp': 31.5, 'absolute_humid': 14.07, 'Dew_temp': 22.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:50.679456
+人員上一次狀態 1
+{'humid': 58.8, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.07, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:45.679669
+人員上一次狀態 0
+{'humid': 58.5, 'person': 0, 'temp': 31.5, 'absolute_humid': 13.99, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:28.968997
+人員上一次狀態 0
+{'humid': 58.6, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.02, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:24.968996
+人員上一次狀態 0
+{'humid': 58.6, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.02, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:19.678595
+人員上一次狀態 0
+{'humid': 58.5, 'person': 0, 'temp': 31.5, 'absolute_humid': 13.99, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:15.968482
+人員上一次狀態 0
+{'humid': 58.4, 'person': 0, 'temp': 31.5, 'absolute_humid': 13.97, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:11.927302
+人員上一次狀態 0
+{'humid': 58.3, 'person': 0, 'temp': 31.4, 'absolute_humid': 13.91, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:07.468635
+人員上一次狀態 0
+{'humid': 58.4, 'person': 0, 'temp': 31.4, 'absolute_humid': 13.94, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:03.968528
+人員上一次狀態 0
+{'humid': 58.5, 'person': 0, 'temp': 31.4, 'absolute_humid': 13.96, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:59.968395
+人員上一次狀態 0
+{'humid': 58.7, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.01, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:55.968347
+人員上一次狀態 0
+{'humid': 58.7, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.01, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:51.917713
+人員上一次狀態 0
+{'humid': 58.7, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.01, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+2021-03-04 02:46:46.192249	GCP Device Regist Status: successfully
+2021-03-04 02:46:46.192546	Serial try Open
+2021-03-04 02:46:46.195225	Serial Open
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 58.8, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.03, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:55.999955
+人員上一次狀態 0
+{'humid': 58.7, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.01, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:51.999920
+人員上一次狀態 0
+{'humid': 58.8, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.03, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+2021-03-04 02:47:05.211155	GCP Device Regist Status: successfully
+2021-03-04 02:47:05.211391	Serial try Open
+2021-03-04 02:47:05.213011	Serial Open
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 58.5, 'person': 0, 'temp': 31.4, 'absolute_humid': 13.96, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:55.999767
+人員上一次狀態 0
+{'humid': 58.4, 'person': 0, 'temp': 31.4, 'absolute_humid': 13.94, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:51.999625
+人員上一次狀態 0
+{'humid': 58.6, 'person': 0, 'temp': 31.4, 'absolute_humid': 13.98, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:47.499553
+人員上一次狀態 0
+{'humid': 58.8, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.03, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:42.739341
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.05, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:38.998975
+人員上一次狀態 0
+{'humid': 58.8, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.03, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:33.999017
+人員上一次狀態 0
+{'humid': 58.6, 'person': 0, 'temp': 31.4, 'absolute_humid': 13.98, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:30.499352
+人員上一次狀態 0
+{'humid': 58.6, 'person': 0, 'temp': 31.4, 'absolute_humid': 13.98, 'Dew_temp': 22.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:26.498771
+人員上一次狀態 0
+{'humid': 58.6, 'person': 0, 'temp': 31.4, 'absolute_humid': 13.98, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:22.949045
+人員上一次狀態 0
+{'humid': 58.7, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.01, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:18.998604
+人員上一次狀態 0
+{'humid': 58.8, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.03, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:13.737551
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.05, 'Dew_temp': 22.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:09.998452
+人員上一次狀態 0
+{'humid': 59.0, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.08, 'Dew_temp': 22.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:05.998376
+人員上一次狀態 0
+{'humid': 59.1, 'person': 0, 'temp': 31.4, 'absolute_humid': 14.1, 'Dew_temp': 22.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:01.998666
+人員上一次狀態 0
+{'humid': 59.2, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.16, 'Dew_temp': 22.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:40.966927
+人員上一次狀態 0
+{'humid': 59.5, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.23, 'Dew_temp': 22.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:59.437078
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.21, 'Dew_temp': 22.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:55.436855
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.21, 'Dew_temp': 22.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:51.436834
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.21, 'Dew_temp': 22.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:46.436753
+人員上一次狀態 0
+{'humid': 59.5, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.23, 'Dew_temp': 22.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:42.436601
+人員上一次狀態 0
+{'humid': 59.5, 'person': 1, 'temp': 31.5, 'absolute_humid': 14.23, 'Dew_temp': 22.7, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+data-received-error
+http://127.0.0.1:30001/query/012345678900
+2021-03-04 02:49:51.393077	GCP Device Regist Status: successfully
+2021-03-04 02:49:51.393313	Serial try Open
+2021-03-04 02:49:51.396335	Serial Open
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 59.7, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.28, 'Dew_temp': 22.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:54.798496
+人員上一次狀態 0
+{'humid': 59.9, 'person': 0, 'temp': 31.6, 'absolute_humid': 14.36, 'Dew_temp': 22.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:50.999742
+人員上一次狀態 0
+{'humid': 60.0, 'person': 1, 'temp': 31.5, 'absolute_humid': 14.35, 'Dew_temp': 22.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:46.999626
+人員上一次狀態 1
+{'humid': 60.0, 'person': 1, 'temp': 31.6, 'absolute_humid': 14.39, 'Dew_temp': 22.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:42.999231
+人員上一次狀態 1
+{'humid': 60.0, 'person': 1, 'temp': 31.5, 'absolute_humid': 14.35, 'Dew_temp': 22.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:38.999236
+人員上一次狀態 1
+{'humid': 60.0, 'person': 0, 'temp': 31.5, 'absolute_humid': 14.35, 'Dew_temp': 22.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:35.442871
+人員上一次狀態 0
+{'humid': 60.1, 'person': 1, 'temp': 31.5, 'absolute_humid': 14.38, 'Dew_temp': 22.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:31.499276
+人員上一次狀態 1
+{'humid': 60.3, 'person': 1, 'temp': 31.5, 'absolute_humid': 14.42, 'Dew_temp': 22.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:27.499103
+人員上一次狀態 1
+{'humid': 60.3, 'person': 1, 'temp': 31.5, 'absolute_humid': 14.42, 'Dew_temp': 22.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:23.499011
+人員上一次狀態 1
+{'humid': 60.4, 'person': 1, 'temp': 31.5, 'absolute_humid': 14.45, 'Dew_temp': 22.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:18.797961
+人員上一次狀態 1
+{'humid': 60.4, 'person': 1, 'temp': 31.6, 'absolute_humid': 14.48, 'Dew_temp': 23.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:15.452817
+人員上一次狀態 1
+{'humid': 60.6, 'person': 1, 'temp': 31.6, 'absolute_humid': 14.53, 'Dew_temp': 23.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:11.999007
+人員上一次狀態 1
+{'humid': 60.6, 'person': 1, 'temp': 31.6, 'absolute_humid': 14.53, 'Dew_temp': 23.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:07.998866
+人員上一次狀態 1
+{'humid': 60.8, 'person': 1, 'temp': 31.6, 'absolute_humid': 14.58, 'Dew_temp': 23.2, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:49.467461
+人員上一次狀態 1
+{'humid': 61.7, 'person': 1, 'temp': 31.7, 'absolute_humid': 14.83, 'Dew_temp': 25.4, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:44.968029
+人員上一次狀態 1
+{'humid': 70.1, 'person': 1, 'temp': 31.7, 'absolute_humid': 16.85, 'Dew_temp': 25.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:40.967864
+人員上一次狀態 1
+{'humid': 70.4, 'person': 1, 'temp': 31.7, 'absolute_humid': 16.92, 'Dew_temp': 25.7, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:35.967852
+人員上一次狀態 1
+{'humid': 71.2, 'person': 1, 'temp': 31.7, 'absolute_humid': 17.12, 'Dew_temp': 26.4, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:31.467922
+人員上一次狀態 1
+{'humid': 76.2, 'person': 1, 'temp': 31.8, 'absolute_humid': 18.36, 'Dew_temp': 27.7, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:27.467275
+人員上一次狀態 1
+{'humid': 80.6, 'person': 1, 'temp': 31.9, 'absolute_humid': 19.47, 'Dew_temp': 28.4, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 87.7, 'person': 1, 'temp': 32.2, 'absolute_humid': 21.34, 'Dew_temp': 29.8, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 1, "fan": 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+starttime 2021-03-04 02:52:13.813811
+stoptime 2021-03-04 03:07:13.813824
+人員上一次狀態 1
+{'humid': 87.6, 'person': 0, 'temp': 32.1, 'absolute_humid': 21.27, 'Dew_temp': 29.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 87.5, 'person': 1, 'temp': 32.2, 'absolute_humid': 21.29, 'Dew_temp': 29.8, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+控制寫入arduino
+{"uv": 0, "heat": 1, "fan": 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 87.6, 'person': 1, 'temp': 32.2, 'absolute_humid': 21.32, 'Dew_temp': 29.9, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 87.8, 'person': 1, 'temp': 32.3, 'absolute_humid': 21.42, 'Dew_temp': 30.0, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 88.2, 'person': 1, 'temp': 32.3, 'absolute_humid': 21.52, 'Dew_temp': 30.1, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 88.4, 'person': 1, 'temp': 32.3, 'absolute_humid': 21.56, 'Dew_temp': 30.2, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 88.5, 'person': 1, 'temp': 32.3, 'absolute_humid': 21.59, 'Dew_temp': 30.2, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 88.7, 'person': 1, 'temp': 32.3, 'absolute_humid': 21.64, 'Dew_temp': 30.2, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+starttime 2021-03-04 02:52:48.955666
+stoptime 2021-03-04 03:07:48.955679
+人員上一次狀態 1
+{'humid': 88.7, 'person': 0, 'temp': 32.3, 'absolute_humid': 21.64, 'Dew_temp': 30.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 87.7, 'person': 0, 'temp': 32.3, 'absolute_humid': 21.39, 'Dew_temp': 29.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 86.7, 'person': 0, 'temp': 32.3, 'absolute_humid': 21.15, 'Dew_temp': 29.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 85.9, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.95, 'Dew_temp': 29.5, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 85.3, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.81, 'Dew_temp': 29.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 84.9, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.71, 'Dew_temp': 29.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 84.5, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.61, 'Dew_temp': 29.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 84.1, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.52, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 84.0, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.49, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 83.9, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.47, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 83.8, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.44, 'Dew_temp': 29.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.8, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.2, 'Dew_temp': 29.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.6, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.15, 'Dew_temp': 28.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.4, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.1, 'Dew_temp': 28.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.4, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.1, 'Dew_temp': 28.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.2, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.05, 'Dew_temp': 28.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.1, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.03, 'Dew_temp': 28.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.0, 'person': 0, 'temp': 32.3, 'absolute_humid': 20.0, 'Dew_temp': 28.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 81.9, 'person': 0, 'temp': 32.4, 'absolute_humid': 20.03, 'Dew_temp': 28.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 81.6, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.95, 'Dew_temp': 28.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 81.3, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.88, 'Dew_temp': 28.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 81.2, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.86, 'Dew_temp': 28.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 81.1, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.83, 'Dew_temp': 28.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.9, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.78, 'Dew_temp': 28.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.8, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.76, 'Dew_temp': 28.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.7, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.73, 'Dew_temp': 28.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.5, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.68, 'Dew_temp': 28.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.4, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.66, 'Dew_temp': 28.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.3, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.64, 'Dew_temp': 28.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.2, 'person': 0, 'temp': 32.5, 'absolute_humid': 19.66, 'Dew_temp': 28.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.1, 'person': 0, 'temp': 32.5, 'absolute_humid': 19.63, 'Dew_temp': 28.5, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 79.9, 'person': 0, 'temp': 32.4, 'absolute_humid': 19.54, 'Dew_temp': 28.5, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 79.9, 'person': 0, 'temp': 32.5, 'absolute_humid': 19.58, 'Dew_temp': 28.5, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 79.2, 'person': 0, 'temp': 32.5, 'absolute_humid': 19.41, 'Dew_temp': 28.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 79.0, 'person': 0, 'temp': 32.5, 'absolute_humid': 19.36, 'Dew_temp': 28.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.9, 'person': 0, 'temp': 32.5, 'absolute_humid': 19.34, 'Dew_temp': 28.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.8, 'person': 0, 'temp': 32.5, 'absolute_humid': 19.31, 'Dew_temp': 28.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.6, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.31, 'Dew_temp': 28.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.5, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.29, 'Dew_temp': 28.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.3, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.24, 'Dew_temp': 28.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.3, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.24, 'Dew_temp': 28.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.1, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.19, 'Dew_temp': 28.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.1, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.19, 'Dew_temp': 28.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.0, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.16, 'Dew_temp': 28.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.8, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.11, 'Dew_temp': 28.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.6, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.07, 'Dew_temp': 28.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.4, 'person': 0, 'temp': 32.6, 'absolute_humid': 19.02, 'Dew_temp': 28.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.3, 'person': 0, 'temp': 32.6, 'absolute_humid': 18.99, 'Dew_temp': 28.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.3, 'person': 0, 'temp': 32.6, 'absolute_humid': 18.99, 'Dew_temp': 28.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 76.6, 'person': 0, 'temp': 32.6, 'absolute_humid': 18.82, 'Dew_temp': 28.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 76.4, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.82, 'Dew_temp': 28.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 76.2, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.77, 'Dew_temp': 27.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 76.1, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.74, 'Dew_temp': 27.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 75.9, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.69, 'Dew_temp': 27.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 75.8, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.67, 'Dew_temp': 27.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 75.7, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.64, 'Dew_temp': 27.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 75.5, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.59, 'Dew_temp': 27.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 75.3, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.54, 'Dew_temp': 27.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 75.1, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.5, 'Dew_temp': 27.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 75.1, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.5, 'Dew_temp': 27.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 75.0, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.47, 'Dew_temp': 27.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 74.9, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.45, 'Dew_temp': 27.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 74.8, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.42, 'Dew_temp': 27.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 74.7, 'person': 0, 'temp': 32.7, 'absolute_humid': 18.4, 'Dew_temp': 27.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 74.7, 'person': 0, 'temp': 32.8, 'absolute_humid': 18.44, 'Dew_temp': 27.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 74.4, 'person': 0, 'temp': 32.8, 'absolute_humid': 18.37, 'Dew_temp': 27.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 73.6, 'person': 0, 'temp': 32.8, 'absolute_humid': 18.17, 'Dew_temp': 27.4, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 73.4, 'person': 0, 'temp': 32.8, 'absolute_humid': 18.12, 'Dew_temp': 27.4, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 73.2, 'person': 0, 'temp': 32.8, 'absolute_humid': 18.07, 'Dew_temp': 27.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 72.9, 'person': 0, 'temp': 32.8, 'absolute_humid': 18.0, 'Dew_temp': 27.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 72.7, 'person': 0, 'temp': 32.8, 'absolute_humid': 17.95, 'Dew_temp': 27.0, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 71.0, 'person': 1, 'temp': 32.9, 'absolute_humid': 17.57, 'Dew_temp': 26.9, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 70.5, 'person': 1, 'temp': 32.9, 'absolute_humid': 17.44, 'Dew_temp': 26.8, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 69.9, 'person': 1, 'temp': 32.9, 'absolute_humid': 17.3, 'Dew_temp': 26.6, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 69.3, 'person': 1, 'temp': 32.9, 'absolute_humid': 17.15, 'Dew_temp': 26.5, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 69.0, 'person': 1, 'temp': 32.9, 'absolute_humid': 17.07, 'Dew_temp': 26.4, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 68.6, 'person': 1, 'temp': 32.9, 'absolute_humid': 16.97, 'Dew_temp': 26.3, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 68.2, 'person': 1, 'temp': 32.9, 'absolute_humid': 16.88, 'Dew_temp': 26.1, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 67.1, 'person': 1, 'temp': 32.9, 'absolute_humid': 16.6, 'Dew_temp': 25.9, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 66.6, 'person': 1, 'temp': 32.9, 'absolute_humid': 16.48, 'Dew_temp': 25.8, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 66.6, 'person': 1, 'temp': 32.9, 'absolute_humid': 16.48, 'Dew_temp': 25.9, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 66.4, 'person': 1, 'temp': 32.9, 'absolute_humid': 16.43, 'Dew_temp': 25.7, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 65.7, 'person': 1, 'temp': 32.9, 'absolute_humid': 16.26, 'Dew_temp': 25.6, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 70.7, 'person': 1, 'temp': 33.0, 'absolute_humid': 17.54, 'Dew_temp': 27.4, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 74.3, 'person': 1, 'temp': 33.1, 'absolute_humid': 18.47, 'Dew_temp': 28.4, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 77.9, 'person': 0, 'temp': 33.1, 'absolute_humid': 19.37, 'Dew_temp': 28.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.8, 'person': 0, 'temp': 33.2, 'absolute_humid': 19.64, 'Dew_temp': 29.1, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 79.8, 'person': 1, 'temp': 33.2, 'absolute_humid': 19.88, 'Dew_temp': 30.1, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 84.5, 'person': 1, 'temp': 33.2, 'absolute_humid': 21.06, 'Dew_temp': 30.4, 'UV': '關閉', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 85.1, 'person': 1, 'temp': 33.3, 'absolute_humid': 21.25, 'Dew_temp': 30.5, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 2}
+控制寫入arduino
+{"uv": 0, "heat": 1, "fan": 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 85.7, 'person': 1, 'temp': 33.3, 'absolute_humid': 21.4, 'Dew_temp': 30.5, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 85.4, 'person': 1, 'temp': 33.3, 'absolute_humid': 21.33, 'Dew_temp': 30.5, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 85.4, 'person': 1, 'temp': 33.3, 'absolute_humid': 21.33, 'Dew_temp': 30.5, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 85.7, 'person': 1, 'temp': 33.4, 'absolute_humid': 21.45, 'Dew_temp': 30.7, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 86.2, 'person': 1, 'temp': 33.4, 'absolute_humid': 21.58, 'Dew_temp': 30.8, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 86.8, 'person': 1, 'temp': 33.4, 'absolute_humid': 21.73, 'Dew_temp': 30.9, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 87.0, 'person': 1, 'temp': 33.4, 'absolute_humid': 21.78, 'Dew_temp': 31.0, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 87.1, 'person': 1, 'temp': 33.5, 'absolute_humid': 21.85, 'Dew_temp': 31.2, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 87.7, 'person': 1, 'temp': 33.6, 'absolute_humid': 22.06, 'Dew_temp': 31.3, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 1
+{'humid': 88.4, 'person': 1, 'temp': 33.6, 'absolute_humid': 22.23, 'Dew_temp': 31.5, 'UV': '關閉', 'heat': '開啟', 'fan': '半速'}
+現在狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+starttime 2021-03-04 03:01:52.536739
+stoptime 2021-03-04 03:16:52.536753
+人員上一次狀態 1
+{'humid': 88.8, 'person': 0, 'temp': 33.7, 'absolute_humid': 22.38, 'Dew_temp': 31.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 0, 'heat': 1, 'fan': 1}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 88.9, 'person': 0, 'temp': 33.7, 'absolute_humid': 22.41, 'Dew_temp': 31.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 89.1, 'person': 0, 'temp': 33.7, 'absolute_humid': 22.46, 'Dew_temp': 31.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 89.1, 'person': 0, 'temp': 33.7, 'absolute_humid': 22.46, 'Dew_temp': 31.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 89.2, 'person': 0, 'temp': 33.7, 'absolute_humid': 22.48, 'Dew_temp': 31.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 89.2, 'person': 0, 'temp': 33.6, 'absolute_humid': 22.43, 'Dew_temp': 31.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 89.1, 'person': 0, 'temp': 33.6, 'absolute_humid': 22.41, 'Dew_temp': 31.5, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 88.9, 'person': 0, 'temp': 33.6, 'absolute_humid': 22.36, 'Dew_temp': 31.5, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 88.8, 'person': 0, 'temp': 33.6, 'absolute_humid': 22.33, 'Dew_temp': 31.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 88.6, 'person': 0, 'temp': 33.6, 'absolute_humid': 22.28, 'Dew_temp': 31.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 88.5, 'person': 0, 'temp': 33.6, 'absolute_humid': 22.26, 'Dew_temp': 31.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 88.3, 'person': 0, 'temp': 33.5, 'absolute_humid': 22.16, 'Dew_temp': 31.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 88.0, 'person': 0, 'temp': 33.6, 'absolute_humid': 22.13, 'Dew_temp': 31.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 87.8, 'person': 0, 'temp': 33.5, 'absolute_humid': 22.03, 'Dew_temp': 31.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 86.9, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.8, 'Dew_temp': 31.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 86.5, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.7, 'Dew_temp': 30.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 86.4, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.68, 'Dew_temp': 30.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 86.2, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.63, 'Dew_temp': 30.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 86.0, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.58, 'Dew_temp': 30.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 85.8, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.53, 'Dew_temp': 30.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 85.6, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.48, 'Dew_temp': 30.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 84.9, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.3, 'Dew_temp': 30.6, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 84.5, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.2, 'Dew_temp': 30.5, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 84.3, 'person': 0, 'temp': 33.5, 'absolute_humid': 21.15, 'Dew_temp': 30.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 83.6, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.98, 'Dew_temp': 30.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 83.1, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.85, 'Dew_temp': 30.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.9, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.8, 'Dew_temp': 30.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.9, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.8, 'Dew_temp': 30.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.7, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.75, 'Dew_temp': 30.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.6, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.73, 'Dew_temp': 30.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.3, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.65, 'Dew_temp': 30.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.1, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.6, 'Dew_temp': 30.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 82.0, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.58, 'Dew_temp': 30.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 81.8, 'person': 0, 'temp': 33.5, 'absolute_humid': 20.53, 'Dew_temp': 30.0, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 81.6, 'person': 0, 'temp': 33.6, 'absolute_humid': 20.52, 'Dew_temp': 29.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 81.3, 'person': 0, 'temp': 33.6, 'absolute_humid': 20.45, 'Dew_temp': 29.9, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 81.0, 'person': 0, 'temp': 33.6, 'absolute_humid': 20.37, 'Dew_temp': 29.8, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.3, 'person': 0, 'temp': 33.6, 'absolute_humid': 20.19, 'Dew_temp': 29.7, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 80.1, 'person': 0, 'temp': 33.6, 'absolute_humid': 20.14, 'Dew_temp': 29.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.6, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.81, 'Dew_temp': 29.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.5, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.79, 'Dew_temp': 29.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.3, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.74, 'Dew_temp': 29.4, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.1, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.69, 'Dew_temp': 29.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 78.0, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.66, 'Dew_temp': 29.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.9, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.64, 'Dew_temp': 29.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.7, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.59, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.6, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.56, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.5, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.54, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.4, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.51, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.4, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.51, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.3, 'person': 0, 'temp': 33.8, 'absolute_humid': 19.53, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.2, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.46, 'Dew_temp': 29.2, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 77.0, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.41, 'Dew_temp': 29.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 76.9, 'person': 0, 'temp': 33.8, 'absolute_humid': 19.43, 'Dew_temp': 29.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 76.8, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.36, 'Dew_temp': 29.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 76.7, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.33, 'Dew_temp': 29.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 76.6, 'person': 0, 'temp': 33.7, 'absolute_humid': 19.31, 'Dew_temp': 29.1, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 76.0, 'person': 0, 'temp': 33.8, 'absolute_humid': 19.2, 'Dew_temp': 28.9, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 75.9, 'person': 0, 'temp': 33.8, 'absolute_humid': 19.18, 'Dew_temp': 28.9, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 75.7, 'person': 0, 'temp': 33.8, 'absolute_humid': 19.13, 'Dew_temp': 28.9, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 75.5, 'person': 0, 'temp': 33.8, 'absolute_humid': 19.07, 'Dew_temp': 28.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 75.3, 'person': 0, 'temp': 33.8, 'absolute_humid': 19.02, 'Dew_temp': 28.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 75.2, 'person': 0, 'temp': 33.8, 'absolute_humid': 19.0, 'Dew_temp': 28.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 75.1, 'person': 0, 'temp': 33.8, 'absolute_humid': 18.97, 'Dew_temp': 28.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 74.9, 'person': 0, 'temp': 33.8, 'absolute_humid': 18.92, 'Dew_temp': 28.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 74.8, 'person': 0, 'temp': 33.8, 'absolute_humid': 18.9, 'Dew_temp': 28.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 74.5, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.86, 'Dew_temp': 28.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 74.3, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.81, 'Dew_temp': 28.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 72.7, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.41, 'Dew_temp': 28.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 72.4, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.33, 'Dew_temp': 28.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 72.2, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.28, 'Dew_temp': 28.1, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 71.8, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.18, 'Dew_temp': 28.0, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 71.7, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.16, 'Dew_temp': 28.0, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 71.6, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.13, 'Dew_temp': 28.0, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 71.4, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.08, 'Dew_temp': 28.0, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 71.2, 'person': 0, 'temp': 33.9, 'absolute_humid': 18.03, 'Dew_temp': 27.9, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 70.7, 'person': 0, 'temp': 33.9, 'absolute_humid': 17.9, 'Dew_temp': 27.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 69.9, 'person': 0, 'temp': 33.9, 'absolute_humid': 17.7, 'Dew_temp': 27.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 69.6, 'person': 0, 'temp': 33.9, 'absolute_humid': 17.62, 'Dew_temp': 27.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 69.0, 'person': 0, 'temp': 33.9, 'absolute_humid': 17.47, 'Dew_temp': 27.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 67.7, 'person': 0, 'temp': 33.9, 'absolute_humid': 17.14, 'Dew_temp': 26.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 65.7, 'person': 0, 'temp': 33.9, 'absolute_humid': 16.64, 'Dew_temp': 26.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 65.2, 'person': 0, 'temp': 33.9, 'absolute_humid': 16.51, 'Dew_temp': 26.4, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 63.0, 'person': 0, 'temp': 34.0, 'absolute_humid': 15.99, 'Dew_temp': 25.9, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 62.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 15.89, 'Dew_temp': 25.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 61.9, 'person': 0, 'temp': 33.9, 'absolute_humid': 15.67, 'Dew_temp': 25.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 61.5, 'person': 0, 'temp': 33.9, 'absolute_humid': 15.57, 'Dew_temp': 25.4, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 61.1, 'person': 0, 'temp': 33.9, 'absolute_humid': 15.47, 'Dew_temp': 25.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 60.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 15.38, 'Dew_temp': 25.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 60.8, 'person': 0, 'temp': 33.9, 'absolute_humid': 15.4, 'Dew_temp': 25.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 60.5, 'person': 0, 'temp': 34.0, 'absolute_humid': 15.35, 'Dew_temp': 25.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 60.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 15.38, 'Dew_temp': 25.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 60.7, 'person': 0, 'temp': 33.9, 'absolute_humid': 15.37, 'Dew_temp': 25.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 60.5, 'person': 0, 'temp': 33.9, 'absolute_humid': 15.32, 'Dew_temp': 25.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 60.4, 'person': 0, 'temp': 34.0, 'absolute_humid': 15.33, 'Dew_temp': 25.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 60.1, 'person': 0, 'temp': 34.0, 'absolute_humid': 15.25, 'Dew_temp': 25.0, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 59.6, 'person': 0, 'temp': 33.9, 'absolute_humid': 15.09, 'Dew_temp': 25.0, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 33.9, 'absolute_humid': 15.04, 'Dew_temp': 24.9, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 59.2, 'person': 0, 'temp': 33.9, 'absolute_humid': 14.99, 'Dew_temp': 24.9, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 58.4, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.82, 'Dew_temp': 24.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 58.1, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.75, 'Dew_temp': 24.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 57.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.62, 'Dew_temp': 24.4, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 57.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.62, 'Dew_temp': 24.4, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 57.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.62, 'Dew_temp': 24.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 57.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.62, 'Dew_temp': 24.4, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 57.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.62, 'Dew_temp': 24.4, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 57.4, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.57, 'Dew_temp': 24.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.9, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.44, 'Dew_temp': 24.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 57.1, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.49, 'Dew_temp': 24.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 57.2, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.52, 'Dew_temp': 24.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 57.0, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.47, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.6, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.4, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.5, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.37, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.6, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.4, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.3, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.32, 'Dew_temp': 24.1, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.2, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.3, 'Dew_temp': 24.1, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.2, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.3, 'Dew_temp': 24.1, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.3, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.32, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.5, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.37, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.4, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.35, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.7, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.42, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.6, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.4, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.7, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.42, 'Dew_temp': 24.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.7, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.39, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.3, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.32, 'Dew_temp': 24.1, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.0, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.21, 'Dew_temp': 24.0, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.4, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.31, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.36, 'Dew_temp': 24.2, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.5, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.34, 'Dew_temp': 24.1, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.3, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.29, 'Dew_temp': 24.1, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 56.3, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.29, 'Dew_temp': 24.0, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.8, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.16, 'Dew_temp': 23.9, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.2, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.04, 'Dew_temp': 23.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.1, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.98, 'Dew_temp': 23.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.4, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.06, 'Dew_temp': 23.9, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.3, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.07, 'Dew_temp': 23.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.4, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.06, 'Dew_temp': 23.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.3, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.07, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.9, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.93, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.0, 'person': 0, 'temp': 34.1, 'absolute_humid': 13.99, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.9, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.93, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.0, 'person': 0, 'temp': 34.1, 'absolute_humid': 13.99, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.9, 'person': 0, 'temp': 34.1, 'absolute_humid': 13.96, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.8, 'person': 0, 'temp': 34.1, 'absolute_humid': 13.94, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.8, 'person': 0, 'temp': 34.1, 'absolute_humid': 13.94, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.7, 'person': 0, 'temp': 34.1, 'absolute_humid': 13.91, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.7, 'person': 0, 'temp': 34.1, 'absolute_humid': 13.91, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.9, 'person': 0, 'temp': 34.1, 'absolute_humid': 13.96, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.0, 'person': 0, 'temp': 34.1, 'absolute_humid': 13.99, 'Dew_temp': 23.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.1, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.98, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.2, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.04, 'Dew_temp': 23.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.3, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.07, 'Dew_temp': 23.8, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.2, 'person': 0, 'temp': 34.1, 'absolute_humid': 14.04, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.2, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.01, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.2, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.01, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 55.2, 'person': 0, 'temp': 34.0, 'absolute_humid': 14.01, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.9, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.93, 'Dew_temp': 23.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.5, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.83, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.81, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.81, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.6, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.86, 'Dew_temp': 23.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.8, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.91, 'Dew_temp': 23.7, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.9, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.93, 'Dew_temp': 23.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.9, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.93, 'Dew_temp': 23.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.9, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.93, 'Dew_temp': 23.6, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.81, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.3, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.78, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.3, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.78, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.5, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.83, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人走後經過5分鐘
+人員上一次狀態 0
+{'humid': 54.0, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.7, 'Dew_temp': 23.3, 'UV': '開啟', 'heat': '關閉', 'fan': '全速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+經過15分鐘
+人員上一次狀態 0
+{'humid': 53.9, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.68, 'Dew_temp': 23.3, 'UV': '開啟', 'heat': '關閉', 'fan': '半速'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 2}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 1}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+人員上一次狀態 0
+{'humid': 54.1, 'person': 0, 'temp': 34.0, 'absolute_humid': 13.73, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 1}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:55.999733
+人員上一次狀態 0
+{'humid': 54.5, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.8, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:52.000010
+人員上一次狀態 0
+{'humid': 54.6, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.83, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:46.868477
+人員上一次狀態 0
+{'humid': 54.3, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.75, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:42.999328
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.77, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:24.468954
+人員上一次狀態 0
+{'humid': 54.6, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.83, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:20.968755
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.77, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:16.468792
+人員上一次狀態 0
+{'humid': 54.5, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.8, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:12.468874
+人員上一次狀態 0
+{'humid': 54.6, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.83, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:08.468809
+人員上一次狀態 0
+{'humid': 54.7, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.85, 'Dew_temp': 23.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:59:03.468822
+人員上一次狀態 0
+{'humid': 54.6, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.83, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:59.468677
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.77, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:55.468678
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.77, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:51.468512
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 33.9, 'absolute_humid': 13.77, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:46.867331
+人員上一次狀態 0
+{'humid': 54.5, 'person': 0, 'temp': 33.8, 'absolute_humid': 13.77, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:42.968506
+人員上一次狀態 0
+{'humid': 54.3, 'person': 0, 'temp': 33.8, 'absolute_humid': 13.72, 'Dew_temp': 23.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:38.968191
+人員上一次狀態 0
+{'humid': 54.2, 'person': 0, 'temp': 33.8, 'absolute_humid': 13.69, 'Dew_temp': 23.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:34.968182
+人員上一次狀態 0
+{'humid': 54.5, 'person': 0, 'temp': 33.8, 'absolute_humid': 13.77, 'Dew_temp': 23.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:29.968190
+人員上一次狀態 0
+{'humid': 54.5, 'person': 0, 'temp': 33.8, 'absolute_humid': 13.77, 'Dew_temp': 23.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:24.967733
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 33.8, 'absolute_humid': 13.74, 'Dew_temp': 23.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:21.467664
+人員上一次狀態 0
+{'humid': 54.4, 'person': 0, 'temp': 33.8, 'absolute_humid': 13.74, 'Dew_temp': 23.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:17.467496
+人員上一次狀態 0
+{'humid': 54.1, 'person': 0, 'temp': 33.8, 'absolute_humid': 13.67, 'Dew_temp': 23.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:13.467385
+人員上一次狀態 0
+{'humid': 54.2, 'person': 0, 'temp': 33.7, 'absolute_humid': 13.66, 'Dew_temp': 23.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:09.967946
+人員上一次狀態 0
+{'humid': 54.3, 'person': 1, 'temp': 33.7, 'absolute_humid': 13.69, 'Dew_temp': 23.2, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:58:05.967371
+人員上一次狀態 1
+{'humid': 54.4, 'person': 1, 'temp': 33.7, 'absolute_humid': 13.71, 'Dew_temp': 23.3, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:49.437184
+人員上一次狀態 1
+{'humid': 54.5, 'person': 1, 'temp': 33.4, 'absolute_humid': 13.64, 'Dew_temp': 22.1, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:44.936783
+人員上一次狀態 1
+{'humid': 51.9, 'person': 1, 'temp': 33.2, 'absolute_humid': 12.93, 'Dew_temp': 22.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:40.936737
+人員上一次狀態 1
+{'humid': 52.0, 'person': 0, 'temp': 33.2, 'absolute_humid': 12.96, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:36.936623
+人員上一次狀態 0
+{'humid': 52.1, 'person': 0, 'temp': 33.0, 'absolute_humid': 12.92, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:32.936532
+人員上一次狀態 0
+{'humid': 52.5, 'person': 1, 'temp': 32.9, 'absolute_humid': 12.99, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:26.865500
+人員上一次狀態 1
+{'humid': 52.8, 'person': 1, 'temp': 32.9, 'absolute_humid': 13.06, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:22.936606
+人員上一次狀態 1
+{'humid': 53.1, 'person': 1, 'temp': 32.7, 'absolute_humid': 13.08, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:18.936567
+人員上一次狀態 1
+{'humid': 53.3, 'person': 1, 'temp': 32.7, 'absolute_humid': 13.13, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:14.865141
+人員上一次狀態 1
+{'humid': 53.4, 'person': 1, 'temp': 32.6, 'absolute_humid': 13.12, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:10.936482
+人員上一次狀態 1
+{'humid': 53.7, 'person': 1, 'temp': 32.5, 'absolute_humid': 13.16, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:06.935950
+人員上一次狀態 1
+{'humid': 53.8, 'person': 1, 'temp': 32.4, 'absolute_humid': 13.16, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:57:02.936056
+人員上一次狀態 1
+{'humid': 54.2, 'person': 1, 'temp': 32.4, 'absolute_humid': 13.25, 'Dew_temp': 22.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:58.436060
+人員上一次狀態 1
+{'humid': 54.4, 'person': 1, 'temp': 32.3, 'absolute_humid': 13.27, 'Dew_temp': 22.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:53.364783
+人員上一次狀態 1
+{'humid': 54.5, 'person': 1, 'temp': 32.3, 'absolute_humid': 13.29, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:49.435797
+人員上一次狀態 1
+{'humid': 54.7, 'person': 1, 'temp': 32.2, 'absolute_humid': 13.31, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:30.905497
+人員上一次狀態 1
+{'humid': 54.7, 'person': 1, 'temp': 32.0, 'absolute_humid': 13.25, 'Dew_temp': 21.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:26.905482
+人員上一次狀態 1
+{'humid': 55.0, 'person': 1, 'temp': 31.9, 'absolute_humid': 13.29, 'Dew_temp': 21.7, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:22.905088
+人員上一次狀態 1
+{'humid': 54.9, 'person': 0, 'temp': 31.9, 'absolute_humid': 13.26, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:18.904874
+人員上一次狀態 0
+{'humid': 54.8, 'person': 0, 'temp': 31.8, 'absolute_humid': 13.21, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:14.904995
+人員上一次狀態 0
+{'humid': 54.9, 'person': 0, 'temp': 31.7, 'absolute_humid': 13.2, 'Dew_temp': 21.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:11.404645
+人員上一次狀態 0
+{'humid': 55.0, 'person': 1, 'temp': 31.7, 'absolute_humid': 13.22, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:06.863921
+人員上一次狀態 1
+{'humid': 55.2, 'person': 1, 'temp': 31.6, 'absolute_humid': 13.24, 'Dew_temp': 21.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:56:01.904753
+人員上一次狀態 1
+{'humid': 55.6, 'person': 1, 'temp': 31.6, 'absolute_humid': 13.33, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:56.363923
+人員上一次狀態 1
+{'humid': 55.8, 'person': 1, 'temp': 31.5, 'absolute_humid': 13.35, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:52.904512
+人員上一次狀態 1
+{'humid': 56.0, 'person': 0, 'temp': 31.5, 'absolute_humid': 13.4, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:48.904662
+人員上一次狀態 0
+{'humid': 56.2, 'person': 0, 'temp': 31.5, 'absolute_humid': 13.44, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:44.904194
+人員上一次狀態 0
+{'humid': 56.3, 'person': 1, 'temp': 31.4, 'absolute_humid': 13.43, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:39.363335
+人員上一次狀態 1
+{'humid': 56.3, 'person': 1, 'temp': 31.4, 'absolute_humid': 13.43, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:35.404410
+人員上一次狀態 1
+{'humid': 56.5, 'person': 1, 'temp': 31.3, 'absolute_humid': 13.45, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:30.863508
+人員上一次狀態 1
+{'humid': 56.5, 'person': 1, 'temp': 31.3, 'absolute_humid': 13.45, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:25.863182
+人員上一次狀態 1
+{'humid': 56.4, 'person': 1, 'temp': 31.2, 'absolute_humid': 13.39, 'Dew_temp': 21.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:21.364105
+人員上一次狀態 1
+{'humid': 56.5, 'person': 1, 'temp': 31.2, 'absolute_humid': 13.41, 'Dew_temp': 21.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:04.873555
+人員上一次狀態 1
+{'humid': 57.0, 'person': 1, 'temp': 31.0, 'absolute_humid': 13.47, 'Dew_temp': 21.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:55:00.873257
+人員上一次狀態 1
+{'humid': 57.2, 'person': 1, 'temp': 31.0, 'absolute_humid': 13.51, 'Dew_temp': 21.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:56.373305
+人員上一次狀態 1
+{'humid': 57.4, 'person': 1, 'temp': 30.9, 'absolute_humid': 13.53, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:51.873062
+人員上一次狀態 1
+{'humid': 57.6, 'person': 1, 'temp': 30.9, 'absolute_humid': 13.57, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:47.328702
+人員上一次狀態 1
+{'humid': 57.9, 'person': 0, 'temp': 30.9, 'absolute_humid': 13.64, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:43.373182
+人員上一次狀態 0
+{'humid': 58.1, 'person': 0, 'temp': 30.8, 'absolute_humid': 13.66, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:39.373001
+人員上一次狀態 0
+{'humid': 58.3, 'person': 1, 'temp': 30.8, 'absolute_humid': 13.7, 'Dew_temp': 21.7, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:35.372412
+人員上一次狀態 1
+{'humid': 58.5, 'person': 1, 'temp': 30.8, 'absolute_humid': 13.75, 'Dew_temp': 21.7, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:31.372954
+人員上一次狀態 1
+{'humid': 58.7, 'person': 0, 'temp': 30.7, 'absolute_humid': 13.76, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:27.328693
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 30.7, 'absolute_humid': 13.81, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:23.372858
+人員上一次狀態 0
+{'humid': 59.1, 'person': 0, 'temp': 30.7, 'absolute_humid': 13.86, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:19.372379
+人員上一次狀態 0
+{'humid': 59.2, 'person': 1, 'temp': 30.7, 'absolute_humid': 13.88, 'Dew_temp': 21.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:15.372291
+人員上一次狀態 1
+{'humid': 59.3, 'person': 1, 'temp': 30.7, 'absolute_humid': 13.9, 'Dew_temp': 21.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:11.372066
+人員上一次狀態 1
+{'humid': 59.4, 'person': 1, 'temp': 30.7, 'absolute_humid': 13.93, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:07.872127
+人員上一次狀態 1
+{'humid': 59.5, 'person': 0, 'temp': 30.7, 'absolute_humid': 13.95, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:54:03.872170
+人員上一次狀態 0
+{'humid': 59.5, 'person': 0, 'temp': 30.6, 'absolute_humid': 13.91, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:59.360991
+人員上一次狀態 0
+{'humid': 59.5, 'person': 1, 'temp': 30.6, 'absolute_humid': 13.91, 'Dew_temp': 21.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:55.371861
+人員上一次狀態 1
+{'humid': 59.5, 'person': 0, 'temp': 30.6, 'absolute_humid': 13.91, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:36.841638
+人員上一次狀態 0
+{'humid': 59.6, 'person': 0, 'temp': 30.5, 'absolute_humid': 13.9, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:32.841683
+人員上一次狀態 0
+{'humid': 60.6, 'person': 0, 'temp': 30.5, 'absolute_humid': 14.13, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:28.309256
+人員上一次狀態 0
+{'humid': 60.7, 'person': 0, 'temp': 30.5, 'absolute_humid': 14.16, 'Dew_temp': 22.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:24.341303
+人員上一次狀態 0
+{'humid': 60.8, 'person': 0, 'temp': 30.5, 'absolute_humid': 14.18, 'Dew_temp': 22.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:20.309118
+人員上一次狀態 0
+{'humid': 60.8, 'person': 1, 'temp': 30.5, 'absolute_humid': 14.18, 'Dew_temp': 22.1, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:16.341140
+人員上一次狀態 1
+{'humid': 60.8, 'person': 1, 'temp': 30.5, 'absolute_humid': 14.18, 'Dew_temp': 22.1, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:11.840790
+人員上一次狀態 1
+{'humid': 60.7, 'person': 0, 'temp': 30.5, 'absolute_humid': 14.16, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:07.840606
+人員上一次狀態 0
+{'humid': 60.7, 'person': 0, 'temp': 30.5, 'absolute_humid': 14.16, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:53:02.359909
+人員上一次狀態 0
+{'humid': 60.7, 'person': 0, 'temp': 30.4, 'absolute_humid': 14.12, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:57.840423
+人員上一次狀態 0
+{'humid': 60.8, 'person': 0, 'temp': 30.4, 'absolute_humid': 14.14, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:53.309086
+人員上一次狀態 0
+{'humid': 61.0, 'person': 0, 'temp': 30.4, 'absolute_humid': 14.19, 'Dew_temp': 22.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:29.309895
+人員上一次狀態 0
+{'humid': 61.2, 'person': 1, 'temp': 30.4, 'absolute_humid': 14.24, 'Dew_temp': 22.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:25.309808
+人員上一次狀態 1
+{'humid': 61.3, 'person': 1, 'temp': 30.3, 'absolute_humid': 14.22, 'Dew_temp': 22.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:21.809597
+人員上一次狀態 1
+{'humid': 61.3, 'person': 1, 'temp': 30.3, 'absolute_humid': 14.22, 'Dew_temp': 22.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:17.809942
+人員上一次狀態 1
+{'humid': 61.2, 'person': 1, 'temp': 30.3, 'absolute_humid': 14.2, 'Dew_temp': 22.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:12.358458
+人員上一次狀態 1
+{'humid': 61.1, 'person': 1, 'temp': 30.3, 'absolute_humid': 14.18, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:08.809220
+人員上一次狀態 1
+{'humid': 60.8, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.11, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:04.809682
+人員上一次狀態 0
+{'humid': 60.7, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.05, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:52:01.309276
+人員上一次狀態 0
+{'humid': 60.6, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.06, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:57.309199
+人員上一次狀態 0
+{'humid': 60.5, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.04, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:53.309118
+人員上一次狀態 0
+{'humid': 60.6, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.02, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:48.808988
+人員上一次狀態 0
+{'humid': 60.7, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.05, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:43.358417
+人員上一次狀態 0
+{'humid': 60.8, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.07, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:38.808897
+人員上一次狀態 0
+{'humid': 61.1, 'person': 1, 'temp': 30.2, 'absolute_humid': 14.14, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:34.308850
+人員上一次狀態 1
+{'humid': 61.3, 'person': 1, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 22.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:30.758281
+人員上一次狀態 1
+{'humid': 61.3, 'person': 1, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 21.9, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:26.808563
+人員上一次狀態 1
+{'humid': 61.4, 'person': 1, 'temp': 30.2, 'absolute_humid': 14.21, 'Dew_temp': 22.0, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:22.808513
+人員上一次狀態 1
+{'humid': 61.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.21, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:18.808457
+人員上一次狀態 0
+{'humid': 61.4, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.25, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:51:14.808567
+人員上一次狀態 0
+{'humid': 61.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.21, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:56.278341
+人員上一次狀態 0
+{'humid': 61.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:52.778081
+人員上一次狀態 0
+{'humid': 61.0, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.15, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:48.778312
+人員上一次狀態 0
+{'humid': 61.1, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.18, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:43.856764
+人員上一次狀態 0
+{'humid': 61.0, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.15, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:40.277913
+人員上一次狀態 0
+{'humid': 60.8, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.11, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:36.229020
+人員上一次狀態 0
+{'humid': 60.6, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.06, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:32.277737
+人員上一次狀態 0
+{'humid': 60.4, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.01, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:27.277699
+人員上一次狀態 0
+{'humid': 60.3, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.99, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:23.277517
+人員上一次狀態 0
+{'humid': 60.3, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.99, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:19.777441
+人員上一次狀態 0
+{'humid': 60.3, 'person': 1, 'temp': 30.3, 'absolute_humid': 13.99, 'Dew_temp': 21.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:16.228506
+人員上一次狀態 1
+{'humid': 60.2, 'person': 1, 'temp': 30.3, 'absolute_humid': 13.97, 'Dew_temp': 21.7, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:12.277347
+人員上一次狀態 1
+{'humid': 60.2, 'person': 1, 'temp': 30.3, 'absolute_humid': 13.97, 'Dew_temp': 21.7, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:07.356485
+人員上一次狀態 1
+{'humid': 60.1, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.94, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:50:03.777004
+人員上一次狀態 0
+{'humid': 60.2, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.97, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:59.777055
+人員上一次狀態 0
+{'humid': 60.2, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.97, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:56.219139
+人員上一次狀態 0
+{'humid': 60.1, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.94, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:52.276868
+人員上一次狀態 0
+{'humid': 60.0, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.92, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:46.355660
+人員上一次狀態 0
+{'humid': 59.8, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.87, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:42.776293
+人員上一次狀態 0
+{'humid': 59.8, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.87, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:38.776258
+人員上一次狀態 0
+{'humid': 59.8, 'person': 1, 'temp': 30.3, 'absolute_humid': 13.87, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:34.776054
+人員上一次狀態 1
+{'humid': 59.8, 'person': 1, 'temp': 30.3, 'absolute_humid': 13.87, 'Dew_temp': 21.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:30.276198
+人員上一次狀態 1
+{'humid': 59.8, 'person': 1, 'temp': 30.2, 'absolute_humid': 13.84, 'Dew_temp': 21.6, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:25.355080
+人員上一次狀態 1
+{'humid': 59.9, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.86, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:21.275957
+人員上一次狀態 0
+{'humid': 60.0, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.89, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:49:03.245590
+人員上一次狀態 0
+{'humid': 61.2, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.2, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:59.745848
+人員上一次狀態 0
+{'humid': 61.3, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.22, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:55.745757
+人員上一次狀態 0
+{'humid': 61.5, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.27, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:51.245368
+人員上一次狀態 0
+{'humid': 61.6, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.26, 'Dew_temp': 22.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:47.745177
+人員上一次狀態 0
+{'humid': 61.8, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.3, 'Dew_temp': 22.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:41.354085
+人員上一次狀態 0
+{'humid': 61.9, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.32, 'Dew_temp': 22.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:36.744996
+人員上一次狀態 0
+{'humid': 62.0, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.35, 'Dew_temp': 22.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:32.744909
+人員上一次狀態 0
+{'humid': 62.0, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.35, 'Dew_temp': 22.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:27.353875
+人員上一次狀態 0
+{'humid': 62.0, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.35, 'Dew_temp': 22.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:23.244716
+人員上一次狀態 0
+{'humid': 61.9, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.32, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:19.244655
+人員上一次狀態 0
+{'humid': 61.7, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.28, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:15.244584
+人員上一次狀態 0
+{'humid': 61.5, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.23, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:11.244497
+人員上一次狀態 0
+{'humid': 61.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.21, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:48:07.244786
+人員上一次狀態 0
+{'humid': 61.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:48.713683
+人員上一次狀態 0
+{'humid': 60.9, 'person': 0, 'temp': 30.1, 'absolute_humid': 14.06, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:43.713925
+人員上一次狀態 0
+{'humid': 60.9, 'person': 0, 'temp': 30.1, 'absolute_humid': 14.06, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:39.713893
+人員上一次狀態 0
+{'humid': 61.0, 'person': 0, 'temp': 30.1, 'absolute_humid': 14.08, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:34.713703
+人員上一次狀態 0
+{'humid': 61.1, 'person': 0, 'temp': 30.1, 'absolute_humid': 14.1, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:31.213626
+人員上一次狀態 0
+{'humid': 61.1, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.14, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:27.213573
+人員上一次狀態 0
+{'humid': 61.0, 'person': 0, 'temp': 30.1, 'absolute_humid': 14.08, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:23.213493
+人員上一次狀態 0
+{'humid': 61.1, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.14, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:19.213348
+人員上一次狀態 0
+{'humid': 61.1, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.14, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:15.213697
+人員上一次狀態 0
+{'humid': 61.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.21, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:11.213251
+人員上一次狀態 0
+{'humid': 61.6, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.26, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:07.213162
+人員上一次狀態 0
+{'humid': 61.7, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.28, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:47:03.213052
+人員上一次狀態 0
+{'humid': 61.7, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.28, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:59.212985
+人員上一次狀態 0
+{'humid': 61.5, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.23, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:54.352169
+人員上一次狀態 0
+{'humid': 61.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.21, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:50.712744
+人員上一次狀態 0
+{'humid': 61.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:46.712631
+人員上一次狀態 0
+{'humid': 61.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:42.712908
+人員上一次狀態 0
+{'humid': 61.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:38.712900
+人員上一次狀態 0
+{'humid': 61.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.21, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:34.712771
+人員上一次狀態 0
+{'humid': 61.4, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.25, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:30.712605
+人員上一次狀態 0
+{'humid': 61.5, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.27, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:26.712990
+人員上一次狀態 0
+{'humid': 61.5, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.23, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:22.712561
+人員上一次狀態 0
+{'humid': 61.5, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.27, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:18.712128
+人員上一次狀態 0
+{'humid': 61.3, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.22, 'Dew_temp': 22.0, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:14.712037
+人員上一次狀態 0
+{'humid': 61.1, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.18, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:10.711963
+人員上一次狀態 0
+{'humid': 60.9, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.13, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:46:06.711726
+人員上一次狀態 0
+{'humid': 60.6, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.06, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:45:48.181572
+人員上一次狀態 0
+{'humid': 60.5, 'person': 0, 'temp': 30.3, 'absolute_humid': 14.04, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:45:44.181483
+人員上一次狀態 0
+{'humid': 59.9, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.9, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:45:40.181355
+人員上一次狀態 0
+{'humid': 59.8, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.87, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:45:36.681166
+人員上一次狀態 0
+{'humid': 59.8, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.87, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:45:32.681190
+人員上一次狀態 0
+{'humid': 59.8, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.87, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:45:28.638425
+人員上一次狀態 0
+{'humid': 59.8, 'person': 0, 'temp': 30.3, 'absolute_humid': 13.87, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:48.650632
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:44.650308
+人員上一次狀態 0
+{'humid': 59.5, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.77, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:40.649934
+人員上一次狀態 0
+{'humid': 59.6, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.79, 'Dew_temp': 21.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:36.650240
+人員上一次狀態 0
+{'humid': 59.7, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.82, 'Dew_temp': 21.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:32.649776
+人員上一次狀態 0
+{'humid': 59.9, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.86, 'Dew_temp': 21.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:28.649450
+人員上一次狀態 0
+{'humid': 60.2, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.93, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:23.848702
+人員上一次狀態 0
+{'humid': 60.6, 'person': 1, 'temp': 30.2, 'absolute_humid': 14.02, 'Dew_temp': 21.7, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:19.649900
+人員上一次狀態 1
+{'humid': 60.9, 'person': 1, 'temp': 30.2, 'absolute_humid': 14.09, 'Dew_temp': 21.8, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:15.649196
+人員上一次狀態 1
+{'humid': 61.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:11.649308
+人員上一次狀態 0
+{'humid': 61.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:07.649318
+人員上一次狀態 0
+{'humid': 61.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.19, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:44:03.649592
+人員上一次狀態 0
+{'humid': 61.2, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.16, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:59.149224
+人員上一次狀態 0
+{'humid': 61.2, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.16, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:55.149109
+人員上一次狀態 0
+{'humid': 61.2, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.16, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:51.149000
+人員上一次狀態 0
+{'humid': 61.1, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.14, 'Dew_temp': 21.9, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:47.148920
+人員上一次狀態 0
+{'humid': 60.9, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.09, 'Dew_temp': 21.8, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:43.148829
+人員上一次狀態 0
+{'humid': 60.6, 'person': 0, 'temp': 30.2, 'absolute_humid': 14.02, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:39.148749
+人員上一次狀態 0
+{'humid': 60.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.95, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:34.148668
+人員上一次狀態 0
+{'humid': 60.2, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.93, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:30.108753
+人員上一次狀態 0
+{'humid': 60.2, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.93, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:26.648336
+人員上一次狀態 0
+{'humid': 60.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.95, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:22.148449
+人員上一次狀態 0
+{'humid': 60.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.98, 'Dew_temp': 21.7, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:18.148324
+人員上一次狀態 0
+{'humid': 60.3, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.95, 'Dew_temp': 21.6, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:13.148789
+人員上一次狀態 0
+{'humid': 60.0, 'person': 1, 'temp': 30.2, 'absolute_humid': 13.89, 'Dew_temp': 21.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 0, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:09.148289
+人員上一次狀態 1
+{'humid': 59.6, 'person': 1, 'temp': 30.2, 'absolute_humid': 13.79, 'Dew_temp': 21.5, 'UV': '關閉', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:43:04.347483
+人員上一次狀態 1
+{'humid': 59.5, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.77, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 0, 'heat': 0, 'fan': 0}
+控制寫入arduino
+{"uv": 1, "heat": 0, "fan": 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:59.347920
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:55.648207
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:51.647635
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:47.647542
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:43.647525
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:39.147458
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:34.647351
+人員上一次狀態 0
+{'humid': 59.5, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.77, 'Dew_temp': 21.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:22.017800
+人員上一次狀態 0
+{'humid': 59.5, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.77, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:18.018022
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:13.517610
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:07.517429
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:03.517322
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:42:00.017347
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:56.017223
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.75, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:52.017150
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.71, 'Dew_temp': 21.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:48.017070
+人員上一次狀態 0
+{'humid': 59.3, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.69, 'Dew_temp': 21.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:44.017361
+人員上一次狀態 0
+{'humid': 59.1, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.64, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:39.517297
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.63, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:35.516742
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 30.2, 'absolute_humid': 13.63, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:31.516589
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.59, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:27.516581
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.59, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:23.516433
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.59, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:19.516396
+人員上一次狀態 0
+{'humid': 59.0, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.62, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:15.516334
+人員上一次狀態 0
+{'humid': 59.0, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.62, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:11.516240
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.59, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:08.016441
+人員上一次狀態 0
+{'humid': 58.8, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.57, 'Dew_temp': 21.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:04.016466
+人員上一次狀態 0
+{'humid': 58.8, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.57, 'Dew_temp': 21.1, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:41:00.016081
+人員上一次狀態 0
+{'humid': 58.9, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.59, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:40:56.015975
+人員上一次狀態 0
+{'humid': 59.1, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.64, 'Dew_temp': 21.2, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:40:52.015884
+人員上一次狀態 0
+{'humid': 59.2, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.66, 'Dew_temp': 21.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:40:48.015811
+人員上一次狀態 0
+{'humid': 59.4, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.71, 'Dew_temp': 21.3, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:40:44.515581
+人員上一次狀態 0
+{'humid': 59.5, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.73, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:40:40.515516
+人員上一次狀態 0
+{'humid': 59.6, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.76, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:40:22.438297
+人員上一次狀態 0
+{'humid': 59.7, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.78, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:40:18.484889
+人員上一次狀態 0
+{'humid': 59.7, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.78, 'Dew_temp': 21.4, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:40:13.985082
+人員上一次狀態 0
+{'humid': 59.8, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.8, 'Dew_temp': 21.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+http://127.0.0.1:30001/query/012345678900
+風扇停止時間倒數 0:40:09.985116
+人員上一次狀態 0
+{'humid': 59.9, 'person': 0, 'temp': 30.1, 'absolute_humid': 13.83, 'Dew_temp': 21.5, 'UV': '開啟', 'heat': '關閉', 'fan': '關閉'}
+現在狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+讀取狀態 {'uv': 1, 'heat': 0, 'fan': 0}
+{"status":"successfully"}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

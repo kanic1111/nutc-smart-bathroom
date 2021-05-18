@@ -1,0 +1,4 @@
+  File "app.py", line 2
+    import /home/pi/nutc-smart-bathroom/PIT231/PIR231_api
+           ^
+SyntaxError: invalid syntax

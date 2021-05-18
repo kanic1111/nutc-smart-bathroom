@@ -1,0 +1,28 @@
+GCP Device Regist Status: successfully
+rh: 52.1 tc: 29.2 dc: 18.4 absolute_rh:  11.74 人員 0
+{"status":"successfully"}
+rh: 52.2 tc: 29.2 dc: 18.4 absolute_rh:  11.76 人員 0
+{"status":"successfully"}
+Traceback (most recent call last):
+  File "app.py", line 32, in <module>
+    PIR231_RH = PIR231_api.get_Humidity()
+  File "/home/pi/nutc-smart-bathroom/PIR231/PIR231_api.py", line 25, in get_Humidity
+    return create_Subscribe("PIR231/RH")
+  File "/home/pi/nutc-smart-bathroom/PIR231/PIR231_api.py", line 14, in create_Subscribe
+    msg = subscribe.simple(listen_topic, hostname=broker_ip, port=broker_port, keepalive=15)
+  File "/home/pi/.local/lib/python3.7/site-packages/paho/mqtt/subscribe.py", line 264, in simple
+    clean_session, proxy_args)
+  File "/home/pi/.local/lib/python3.7/site-packages/paho/mqtt/subscribe.py", line 175, in callback
+    client.loop_forever()
+  File "/home/pi/.local/lib/python3.7/site-packages/paho/mqtt/client.py", line 1782, in loop_forever
+    rc = self.loop(timeout, max_packets)
+  File "/home/pi/.local/lib/python3.7/site-packages/paho/mqtt/client.py", line 1163, in loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "app.py", line 56, in <module>
+    time.sleep(0.5)
+KeyboardInterrupt

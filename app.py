@@ -100,14 +100,16 @@ while(True):
     # 7 = {'uv':0, 'heat': 1, 'fan':0}
     # 8 = {'uv':0, 'heat': 1, 'fan':2}
 
-    if (referenceJson["濕度"] <= 65 and referenceJson["溫度"] <= 30):
+    if (referenceJson["濕度"] <= 65 or referenceJson["溫度"] <= 30):
         # 溫度或濕度低於 30 或 65  風扇關 UV關
         if(minstartTimeStamp == ""):
             controlJson["fan"] = 0
-    elif(referenceJson["濕度"] >= 85 or referenceJson["溫度"] >= 35):
+    elif (referenceJson["濕度"] > 65 and referenceJson["濕度"] <= 75):
+        pass
+    elif(referenceJson["濕度"] >= 90 or referenceJson["溫度"] >= 35):
             # 如果沒人 風扇都開
         
-        controlJson["fan"] = 1 
+        controlJson["fan"] = 2 
         # mode = 4
         if(preStatusJson["人員"] == 1 and referenceJson["人員"] == 0 ):
             #人剛走 而且 溫濕度達標 計時五分鐘全速 十分鐘後 半速 
@@ -123,18 +125,22 @@ while(True):
         minstartTimeStamp = ""
         minstopTimeStamp = ""  
         controlJson["uv"] = 0 
-        if (referenceJson["濕度"]>=85):
+        if (referenceJson["溫度"]<=22):
             # 有人 濕度大於85 加熱器開 UV關
             hourstartTimeStamp = ""
             hourstopTimeStamp = "" 
             controlJson["heat"] = 1  
-        if (referenceJson["濕度"]<=65):
+        if (referenceJson["溫度"]>=32):
             # 加熱關
             controlJson["heat"] = 0
     elif(referenceJson["人員"] == 0):
         #沒人 UV一律開啟 判斷濕度
         controlJson["uv"] = 1
-        controlJson["heat"] = 0 
+        if (referenceJson["濕度"] >=90):
+            controlJson["heat"] = 1
+            controlJson["fan"] = 2
+        elif (referenceJson["濕度"] <= 65 or referenceJson["溫度"] >= 42):
+            controlJson["heat"] = 0 
         # if(referenceJson["濕度"]>=85):
         #     controlJson["fan"] = 1  
             # 沒人 濕度大於85 UV開 加熱關 風扇開
@@ -147,14 +153,15 @@ while(True):
             # arduino.write(ControlMode(5).encode())
             # print("controlmode = 5")
             hourstartTimeStamp = datetime.datetime.now()
-        if ((hourstartTimeStamp + datetime.timedelta(hours=1)) > datetime.datetime.now()):
+        if ((hourstartTimeStamp + datetime.timedelta(hours=4)) > datetime.datetime.now()):
             # 刷新每小時的時間戳，啟動目前的風扇狀態。
             controlJson["fan"] = 0 
-            hourstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=10)
-            print("風扇停止一小時")
+            hourstopTimeStamp = datetime.datetime.now() + datetime.timedelta(minutes=2)
+            print("風扇停止四小時")
         elif (hourstopTimeStamp > datetime.datetime.now()):
             controlJson["fan"] = 1
-            print("風扇停止一小時開十分鐘")
+            controlJson["uv"] = 1
+            print("風扇停止四小時開二分鐘")
             # 開啟 10 分鐘風扇後關閉
             # controlMode = 4
             # arduino.write(ControlMode(4).encode())
@@ -216,6 +223,13 @@ while(True):
     #arduino_data = json.dumps(controlJson)
     #arduino.write(arduino_data.encode())
     try:
+        if hourstartTimeStamp + datetime.timedelta(hours=4) < datetime.datetime.now():
+            displaytime = "0:00:00"
+        else:
+            displaytime = str(hourstartTimeStamp + datetime.timedelta(hours=4)-datetime.datetime.now()).split(".")[0]
+    except:
+        displaytime = "0:00:00"
+    try:
         sendStatus = {}
         sendStatus["mac"] = config["PIR231_DEVICE"]["MAC"]
         sendStatus["sensorData"] = {}
@@ -229,7 +243,9 @@ while(True):
         sendStatus["sensorData"]["UV燈"] = referenceJson["UV燈"]
         sendStatus["sensorData"]["加熱器"] = referenceJson["加熱器"]
         sendStatus["sensorData"]["風扇"] = referenceJson["風扇"]
+        sendStatus["sensorData"]["風扇停止時間"] = displaytime
         r = requests.post(config["GCP"]["SERVER_PROTOCOL"] + "://" + config["GCP"]["SERVER_IP"] + ":" + config["GCP"]["SERVER_PORT"] + "/insert", json=sendStatus)
+        sendStatus["sensorData"]["現在時間"] = datetime.datetime.now()
         insertStatus = collection.insert_one(sendStatus["sensorData"])
         print(r.text)
     except:
